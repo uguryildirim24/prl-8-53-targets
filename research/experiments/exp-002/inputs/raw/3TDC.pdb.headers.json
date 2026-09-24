@@ -1,0 +1,14 @@
+{
+  "Age": "243",
+  "Connection": "close",
+  "Content-Disposition": "attachment;filename=3TDC.pdb",
+  "Content-Type": "text/plain",
+  "Date": "Wed, 23 Sep 2026 03:32:41 GMT",
+  "Transfer-Encoding": "chunked",
+  "Vary": "Origin",
+  "Via": "1.1 430c487210772c3162a2cd6c2f2a1092.cloudfront.net (CloudFront)",
+  "X-Amz-Cf-Id": "UH27PKxM53KzMcBQIkdvQRquxGOUvkntzApYh4uT5EtXfz2QZ0R9QQ==",
+  "X-Amz-Cf-Pop": "JFK50-P16",
+  "X-Cache": "Hit from cloudfront",
+  "strict-transport-security": "max-age=16000000; includeSubDomains; preload;"
+}

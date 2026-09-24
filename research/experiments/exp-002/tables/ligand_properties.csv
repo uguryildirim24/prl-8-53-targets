@@ -1,0 +1,8 @@
+id,input_provenance,canonical_isomeric_smiles,formal_charge,heavy_atoms,molecular_weight,cLogP_RDKIT_Crippen,rotatable_bonds_RDKIT,H_bond_donors,H_bond_acceptors,chiral_centers_before,chiral_centers_after,seed,optimizer_status
+native_0EU,RCSB CCD 0EU graph; source coordinates discarded,CCNC(=O)Nc1sc2ccccc2c1C(=O)N1CCC(N2CCC[C@@]3(C2)CC(C)(C)OC3=O)CC1,0,36,512.676,4.455,4,2,6,"[(26, 'S')]","[(26, 'S')]",1701,0
+prl_neutral,brief-specified PRL graph,COC(=O)c1cccc(CCN(C)Cc2ccccc2)c1,0,21,283.371,3.148,6,0,3,[],[],1801,0
+prl_protonated,brief-specified PRL graph,COC(=O)c1cccc(CC[NH+](C)Cc2ccccc2)c1,1,21,284.379,1.731,6,1,2,"[(1, '?')]","[(1, '?')]",1802,0
+diphenhydramine_neutral,preselected comparison graph,CN(C)CCOC(c1ccccc1)c1ccccc1,0,19,255.361,3.354,6,0,2,[],[],1901,0
+diphenhydramine_protonated,preselected comparison graph,C[NH+](C)CCOC(c1ccccc1)c1ccccc1,1,19,256.369,1.937,6,1,1,[],[],1902,0
+procaine_protonated,preselected comparison graph,CC[NH+](CC)CCOC(=O)c1ccc(N)cc1,1,17,237.323,0.35,6,2,3,[],[],1903,0
+benzyl_phenylacetate,preselected comparison graph,O=C(Cc1ccccc1)OCc1ccccc1,0,17,226.275,2.973,4,0,2,[],[],1904,0

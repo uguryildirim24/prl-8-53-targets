@@ -1,0 +1,6 @@
+captured_utc=2026-09-23T03:01:02.322Z
+os=Darwin localhost 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050 arm64 arm Darwin
+python=Python 3.13.15
+uv=uv 0.12.5 (210d1f678 2026-08-14 aarch64-apple-darwin)
+chrome=Google Chrome 153.0.8010.53 
+curl=curl 8.7.1 (x86_64-apple-darwin26.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.69.0

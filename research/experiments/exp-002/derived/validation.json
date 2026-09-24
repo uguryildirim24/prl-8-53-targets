@@ -1,0 +1,32 @@
+{
+  "assembly_check": true,
+  "charge_checks_all_within_rounding": true,
+  "coordinate_mapping_check": "CCD CIF atom IDs/elements ordered by pdbx_ordinal exactly match deposited 0EU atom names and CCD SDF element order for all 36 heavy atoms; RMSD analysis then requires stereochemistry-preserving graph matches and uses no coordinate alignment.",
+  "failed_output_check": true,
+  "identity_check": true,
+  "native_ligand_check": true,
+  "run_output_checks": [
+    {
+      "has_vina_error": false,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 1001,
+      "vina_completion_marker": true
+    },
+    {
+      "has_vina_error": false,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 1002,
+      "vina_completion_marker": true
+    },
+    {
+      "has_vina_error": false,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 1003,
+      "vina_completion_marker": true
+    }
+  ],
+  "stereochemistry_and_charge_notes": "0EU S retained before/after conformer generation; neutral PRL has no stereocenter; protonated PRL retains +1 and has unspecified tetrahedral ammonium stereochemistry. The input does not assert one stable nitrogen stereoisomer; no inversion or proton-exchange kinetics were modeled or inferred."
+}

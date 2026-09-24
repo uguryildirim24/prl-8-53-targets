@@ -1,0 +1,75 @@
+{
+  "measured_interpretation": "The top-ranked pose repeated across seeds but occupied a different site-frame orientation from the observed ligand. A closer low-ranked pose occurred only in one seed; the other seeds did not reproduce it. This is not an interpretable native ranking reference, so the conditional PRL/background docking stage was not run.",
+  "method": {
+    "alignment": "none; docked ligand was not independently fitted or aligned to the reference",
+    "atom_mapping_check": "CCD CIF atom IDs/elements ordered by pdbx_ordinal exactly match deposited 0EU atom names and CCD SDF element order for all 36 heavy atoms",
+    "contact_cutoff_A": 4.5,
+    "mapping": "minimum over stereochemistry-preserving heavy-atom graph automorphisms",
+    "rdkit_version": "2026.03.6",
+    "reference": "deposited chain A 0EU heavy-atom coordinates in unchanged 3TDC assembly-2 frame"
+  },
+  "no_threshold": "No numerical pass gate was set or inferred; the measured pose/ranking behavior is reported directly.",
+  "reference_contacts": [
+    "A:ALA1989",
+    "A:LEU1990",
+    "A:LEU1994",
+    "A:LYS1992",
+    "A:THR1985",
+    "A:VAL1993",
+    "B:ALA2150",
+    "B:ARG2183",
+    "B:GLU2255",
+    "B:GLU2257",
+    "B:GLU2261",
+    "B:GLY2184",
+    "B:GLY2187",
+    "B:GLY2188",
+    "B:GLY2258",
+    "B:ILE2262",
+    "B:LEU2254",
+    "B:PHE2185",
+    "B:SER2186",
+    "B:VAL2153"
+  ],
+  "run_summaries": [
+    {
+      "closest_sampled_RMSD_A": 3.0195,
+      "closest_sampled_mode": 10,
+      "closest_sampled_score": -7.978,
+      "max_rss_bytes": 635584512,
+      "seed": 1001,
+      "sys_seconds": 0.08,
+      "top_pose_RMSD_A": 9.0039,
+      "top_pose_contacts_retained": 15,
+      "top_score": -10.316,
+      "user_seconds": 18.61,
+      "wall_seconds": 5.38
+    },
+    {
+      "closest_sampled_RMSD_A": 5.4139,
+      "closest_sampled_mode": 5,
+      "closest_sampled_score": -9.225,
+      "max_rss_bytes": 635486208,
+      "seed": 1002,
+      "sys_seconds": 0.06,
+      "top_pose_RMSD_A": 9.0082,
+      "top_pose_contacts_retained": 15,
+      "top_score": -10.35,
+      "user_seconds": 18.04,
+      "wall_seconds": 4.95
+    },
+    {
+      "closest_sampled_RMSD_A": 5.2461,
+      "closest_sampled_mode": 10,
+      "closest_sampled_score": -8.58,
+      "max_rss_bytes": 635518976,
+      "seed": 1003,
+      "sys_seconds": 0.07,
+      "top_pose_RMSD_A": 9.009,
+      "top_pose_contacts_retained": 15,
+      "top_score": -10.332,
+      "user_seconds": 18.56,
+      "wall_seconds": 5.15
+    }
+  ]
+}

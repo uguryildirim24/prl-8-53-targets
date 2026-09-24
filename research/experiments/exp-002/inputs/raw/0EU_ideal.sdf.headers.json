@@ -1,0 +1,14 @@
+{
+  "Age": "243",
+  "Connection": "close",
+  "Content-Disposition": "attachment;filename=0EU_ideal.sdf",
+  "Content-Type": "text/plain",
+  "Date": "Wed, 23 Sep 2026 03:32:42 GMT",
+  "Transfer-Encoding": "chunked",
+  "Vary": "Origin",
+  "Via": "1.1 d4b337800b3ac25893c356b9d1f760fa.cloudfront.net (CloudFront)",
+  "X-Amz-Cf-Id": "rBg-eSxR1dBDORb_lHtaKU2ugfZglsfSR_uHu_C0ZRA24y5s2UlSgA==",
+  "X-Amz-Cf-Pop": "JFK50-P16",
+  "X-Cache": "Hit from cloudfront",
+  "strict-transport-security": "max-age=16000000; includeSubDomains; preload;"
+}

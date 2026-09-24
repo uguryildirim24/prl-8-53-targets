@@ -1,0 +1,3 @@
+state,expected_formal_charge,pdbqt_atoms_including_polar_H,pdbqt_gasteiger_charge_sum,within_rounding_0.01
+paroxetine_neutral,0,25,0.001,True
+paroxetine_protonated,1,26,1.001,True

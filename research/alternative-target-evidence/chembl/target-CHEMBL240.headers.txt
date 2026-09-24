@@ -1,0 +1,12 @@
+HTTP/1.1 200
+Server: gunicorn/20.0.4
+Vary: Accept, Origin
+Cache-Control: max-age=30000000, s-maxage=30000000
+Content-Type: application/json
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+Date: Wed, 23 Sep 2026 03:14:16 GMT
+Content-Disposition: inline
+X-ChEMBL-in-cache: True
+Connection: close
+X-ChEMBL-retrieval-time: 0.004353761672973633
+Content-Length: 11341

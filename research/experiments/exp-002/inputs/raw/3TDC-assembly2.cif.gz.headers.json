@@ -1,0 +1,14 @@
+{
+  "Age": "183",
+  "Connection": "close",
+  "Content-Disposition": "attachment;filename=3TDC-assembly2.cif.gz",
+  "Content-Type": "application/gzip",
+  "Date": "Wed, 23 Sep 2026 03:33:41 GMT",
+  "Transfer-Encoding": "chunked",
+  "Vary": "Origin",
+  "Via": "1.1 9596cf39270f22ec80a1887eabead568.cloudfront.net (CloudFront)",
+  "X-Amz-Cf-Id": "4RE9gGXu20D5mZCLMz0sRyb3Ij4ObyTkRA4UGdyX6Xam0naClnEMyA==",
+  "X-Amz-Cf-Pop": "JFK50-P16",
+  "X-Cache": "Hit from cloudfront",
+  "strict-transport-security": "max-age=16000000; includeSubDomains; preload;"
+}

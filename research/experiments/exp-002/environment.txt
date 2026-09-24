@@ -1,0 +1,20 @@
+exp-002 environment and execution limits
+generated_utc=2026-09-23T03:50:16Z
+machine=local Mac (Darwin arm64)
+os=Darwin 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050 arm64 arm
+logical_cpu_count=18
+physical_memory_bytes=25769803776
+python=Python 3.13.15
+vina=AutoDock Vina v1.2.7
+vina_url=https://github.com/ccsb-scripps/AutoDock-Vina/releases/download/v1.2.7/vina_1.2.7_mac_aarch64
+vina_sha256=823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1
+meeko_receptor_templates=standard Meeko 0.8.0 templates with Gasteiger charges; all histidines resolved as HIE
+scheduler=all docking runs serialized under nice -n 19; Vina --cpu 4; OMP_NUM_THREADS=4; BLAS thread variables=1
+monitor=/usr/bin/time -lp per docking run; time files preserve wall/user/system time and peak resident bytes
+installed environment below (project-local .venv is gitignored):
+gemmi==0.7.5
+meeko==0.8.0
+numpy==2.5.3
+pillow==12.3.0
+rdkit==2026.3.6
+scipy==1.18.1

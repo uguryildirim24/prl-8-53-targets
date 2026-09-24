@@ -1,0 +1,1 @@
+{"box_center_A": [135.153, 124.06649999999999, 121.356], "box_size_A": [16.75200000000001, 19.25500000000001, 21.052000000000007], "receptor_heavy_atoms": 4311, "sources_verified": 6, "states_prepared": 2}

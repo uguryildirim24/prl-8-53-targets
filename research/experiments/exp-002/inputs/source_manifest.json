@@ -1,0 +1,159 @@
+{
+  "records": [
+    {
+      "bytes": 678914,
+      "elapsed_seconds": 0.146,
+      "file": "3TDC.cif",
+      "final_url": "https://files.rcsb.org/download/3TDC.cif",
+      "http_status": 200,
+      "response_headers_file": "3TDC.cif.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.496372Z",
+      "sha256": "f86dabcbbdec933beea1bd3d8b84cd019f1fd1272b72a1be0ea9e837221bf11f",
+      "url": "https://files.rcsb.org/download/3TDC.cif"
+    },
+    {
+      "bytes": 551124,
+      "elapsed_seconds": 0.111,
+      "file": "3TDC.pdb",
+      "final_url": "https://files.rcsb.org/download/3TDC.pdb",
+      "http_status": 200,
+      "response_headers_file": "3TDC.pdb.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.607846Z",
+      "sha256": "243a8b606489cf50a860165da14a11f76a4a7ffe5bfae36367eefd5ba77d5640",
+      "url": "https://files.rcsb.org/download/3TDC.pdb"
+    },
+    {
+      "bytes": 164087,
+      "elapsed_seconds": 0.081,
+      "file": "3TDC-assembly1.cif.gz",
+      "final_url": "https://files.rcsb.org/download/3TDC-assembly1.cif.gz",
+      "http_status": 200,
+      "response_headers_file": "3TDC-assembly1.cif.gz.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.689517Z",
+      "sha256": "46a80a39b6e2af68f124aa4b26c5239a93771e0fbf085d86673a099784cdc08c",
+      "url": "https://files.rcsb.org/download/3TDC-assembly1.cif.gz"
+    },
+    {
+      "bytes": 322740,
+      "elapsed_seconds": 0.105,
+      "file": "3TDC-assembly2.cif.gz",
+      "final_url": "https://files.rcsb.org/download/3TDC-assembly2.cif.gz",
+      "http_status": 200,
+      "response_headers_file": "3TDC-assembly2.cif.gz.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.794794Z",
+      "sha256": "19b4e05cb92798ba37f2ffaa61a5db4632696f0779251352f67a5792233e1ae0",
+      "url": "https://files.rcsb.org/download/3TDC-assembly2.cif.gz"
+    },
+    {
+      "bytes": 15002,
+      "elapsed_seconds": 0.066,
+      "file": "rcsb-entry-3TDC.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/entry/3TDC",
+      "http_status": 200,
+      "response_headers_file": "rcsb-entry-3TDC.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.861496Z",
+      "sha256": "8ea9140b1f9cac2c87d0d85e575262a7245b62f7a2df03d87329f91e74a5dc0b",
+      "url": "https://data.rcsb.org/rest/v1/core/entry/3TDC"
+    },
+    {
+      "bytes": 2713,
+      "elapsed_seconds": 0.052,
+      "file": "rcsb-assembly-3TDC-1.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/assembly/3TDC/1",
+      "http_status": 200,
+      "response_headers_file": "rcsb-assembly-3TDC-1.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.913768Z",
+      "sha256": "2608280c2902aa0aa60b2ff896b984f015cfc92444689fde76f88823c0663f22",
+      "url": "https://data.rcsb.org/rest/v1/core/assembly/3TDC/1"
+    },
+    {
+      "bytes": 3372,
+      "elapsed_seconds": 0.053,
+      "file": "rcsb-assembly-3TDC-2.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/assembly/3TDC/2",
+      "http_status": 200,
+      "response_headers_file": "rcsb-assembly-3TDC-2.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:44.966975Z",
+      "sha256": "d7b70a8ba9f0e3bba2ba706abf09473fe01cbce8eebdefdee7a7e1e0fe6096d7",
+      "url": "https://data.rcsb.org/rest/v1/core/assembly/3TDC/2"
+    },
+    {
+      "bytes": 70266,
+      "elapsed_seconds": 0.093,
+      "file": "rcsb-polymer-entity-3TDC-1.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3TDC/1",
+      "http_status": 200,
+      "response_headers_file": "rcsb-polymer-entity-3TDC-1.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.060670Z",
+      "sha256": "19d98bfa6b5f1c6230320564b1bcbf5da270844e1ce283337e46517546d37215",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity/3TDC/1"
+    },
+    {
+      "bytes": 65093,
+      "elapsed_seconds": 0.081,
+      "file": "rcsb-polymer-instance-3TDC-A.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/3TDC/A",
+      "http_status": 200,
+      "response_headers_file": "rcsb-polymer-instance-3TDC-A.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.141981Z",
+      "sha256": "e11b50cc3faaec4278dcb221306ab0578000fa9ee1d7223d44fa8c7d9e442cde",
+      "url": "https://data.rcsb.org/rest/v1/core/polymer_entity_instance/3TDC/A"
+    },
+    {
+      "bytes": 4446,
+      "elapsed_seconds": 0.05,
+      "file": "rcsb-chemcomp-0EU.json",
+      "final_url": "https://data.rcsb.org/rest/v1/core/chemcomp/0EU",
+      "http_status": 200,
+      "response_headers_file": "rcsb-chemcomp-0EU.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.192500Z",
+      "sha256": "3c73aad5fbd749b031b8efe9837bb6e0def48b791587296d3ce06f99d0cc86a9",
+      "url": "https://data.rcsb.org/rest/v1/core/chemcomp/0EU"
+    },
+    {
+      "bytes": 12750,
+      "elapsed_seconds": 0.051,
+      "file": "0EU.cif",
+      "final_url": "https://files.rcsb.org/ligands/download/0EU.cif",
+      "http_status": 200,
+      "response_headers_file": "0EU.cif.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.244001Z",
+      "sha256": "79a15f17a5794e71f40e45dbcc54369536c7e9c926f2f0b9b4a7a0ec7eefee11",
+      "url": "https://files.rcsb.org/ligands/download/0EU.cif"
+    },
+    {
+      "bytes": 5050,
+      "elapsed_seconds": 0.049,
+      "file": "0EU_ideal.sdf",
+      "final_url": "https://files.rcsb.org/ligands/download/0EU_ideal.sdf",
+      "http_status": 200,
+      "response_headers_file": "0EU_ideal.sdf.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.292846Z",
+      "sha256": "511425a545a0e9e13033860d18ae0b70b53da5141abcbe31bb738eebe3aade44",
+      "url": "https://files.rcsb.org/ligands/download/0EU_ideal.sdf"
+    },
+    {
+      "bytes": 100886,
+      "elapsed_seconds": 0.558,
+      "file": "uniprot-O00763.json",
+      "final_url": "https://rest.uniprot.org/uniprotkb/O00763.json",
+      "http_status": 200,
+      "response_headers_file": "uniprot-O00763.json.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:45.850841Z",
+      "sha256": "f5f9da8d83a0bebc840ed46a5472484e0250cc843af4b54a0271e7aaf589bb4b",
+      "url": "https://rest.uniprot.org/uniprotkb/O00763.json"
+    },
+    {
+      "bytes": 2590,
+      "elapsed_seconds": 0.349,
+      "file": "uniprot-O00763.fasta",
+      "final_url": "https://rest.uniprot.org/uniprotkb/O00763.fasta",
+      "http_status": 200,
+      "response_headers_file": "uniprot-O00763.fasta.headers.json",
+      "retrieved_utc": "2026-09-23T03:36:46.199781Z",
+      "sha256": "45d34c8c8ec62f478fc8aa9e08657310731c65bfafe0d069666b3647c5333a52",
+      "url": "https://rest.uniprot.org/uniprotkb/O00763.fasta"
+    }
+  ],
+  "retrieval_tool": "Python urllib from Python 3.13.15"
+}

@@ -1,0 +1,259 @@
+{
+  "atoms": [
+    {
+      "ccd_atom_name": "FAA",
+      "coord_A": [
+        132.777,
+        120.439,
+        125.882
+      ],
+      "element": "F",
+      "molecule_atom_index": 0
+    },
+    {
+      "ccd_atom_name": "CAR",
+      "coord_A": [
+        133.575,
+        121.475,
+        125.497
+      ],
+      "element": "C",
+      "molecule_atom_index": 1
+    },
+    {
+      "ccd_atom_name": "CAB",
+      "coord_A": [
+        134.874,
+        121.365,
+        125.032
+      ],
+      "element": "C",
+      "molecule_atom_index": 2
+    },
+    {
+      "ccd_atom_name": "CAE",
+      "coord_A": [
+        135.575,
+        122.503,
+        124.673
+      ],
+      "element": "C",
+      "molecule_atom_index": 3
+    },
+    {
+      "ccd_atom_name": "CAT",
+      "coord_A": [
+        134.973,
+        123.745,
+        124.779
+      ],
+      "element": "C",
+      "molecule_atom_index": 4
+    },
+    {
+      "ccd_atom_name": "CAF",
+      "coord_A": [
+        133.675,
+        123.853,
+        125.246
+      ],
+      "element": "C",
+      "molecule_atom_index": 5
+    },
+    {
+      "ccd_atom_name": "CAC",
+      "coord_A": [
+        132.975,
+        122.716,
+        125.604
+      ],
+      "element": "C",
+      "molecule_atom_index": 6
+    },
+    {
+      "ccd_atom_name": "CAX",
+      "coord_A": [
+        135.976,
+        124.86,
+        124.313
+      ],
+      "element": "C",
+      "molecule_atom_index": 7
+    },
+    {
+      "ccd_atom_name": "CAJ",
+      "coord_A": [
+        136.688,
+        125.385,
+        125.526
+      ],
+      "element": "C",
+      "molecule_atom_index": 8
+    },
+    {
+      "ccd_atom_name": "CAI",
+      "coord_A": [
+        137.529,
+        126.628,
+        125.224
+      ],
+      "element": "C",
+      "molecule_atom_index": 9
+    },
+    {
+      "ccd_atom_name": "NAN",
+      "coord_A": [
+        136.728,
+        127.694,
+        124.528
+      ],
+      "element": "N",
+      "molecule_atom_index": 10
+    },
+    {
+      "ccd_atom_name": "CAK",
+      "coord_A": [
+        136.059,
+        127.168,
+        123.295
+      ],
+      "element": "C",
+      "molecule_atom_index": 11
+    },
+    {
+      "ccd_atom_name": "CAW",
+      "coord_A": [
+        135.2,
+        125.936,
+        123.597
+      ],
+      "element": "C",
+      "molecule_atom_index": 12
+    },
+    {
+      "ccd_atom_name": "CAM",
+      "coord_A": [
+        134.665,
+        125.37,
+        122.257
+      ],
+      "element": "C",
+      "molecule_atom_index": 13
+    },
+    {
+      "ccd_atom_name": "OAO",
+      "coord_A": [
+        135.61,
+        124.506,
+        121.7
+      ],
+      "element": "O",
+      "molecule_atom_index": 14
+    },
+    {
+      "ccd_atom_name": "CAS",
+      "coord_A": [
+        135.282,
+        124.091,
+        120.408
+      ],
+      "element": "C",
+      "molecule_atom_index": 15
+    },
+    {
+      "ccd_atom_name": "CAD",
+      "coord_A": [
+        134.729,
+        124.852,
+        119.391
+      ],
+      "element": "C",
+      "molecule_atom_index": 16
+    },
+    {
+      "ccd_atom_name": "CAG",
+      "coord_A": [
+        134.468,
+        124.266,
+        118.164
+      ],
+      "element": "C",
+      "molecule_atom_index": 17
+    },
+    {
+      "ccd_atom_name": "CAU",
+      "coord_A": [
+        134.762,
+        122.912,
+        117.957
+      ],
+      "element": "C",
+      "molecule_atom_index": 18
+    },
+    {
+      "ccd_atom_name": "OAP",
+      "coord_A": [
+        134.602,
+        122.075,
+        116.83
+      ],
+      "element": "O",
+      "molecule_atom_index": 19
+    },
+    {
+      "ccd_atom_name": "CAL",
+      "coord_A": [
+        135.201,
+        120.837,
+        117.115
+      ],
+      "element": "C",
+      "molecule_atom_index": 20
+    },
+    {
+      "ccd_atom_name": "OAQ",
+      "coord_A": [
+        135.5,
+        120.848,
+        118.487
+      ],
+      "element": "O",
+      "molecule_atom_index": 21
+    },
+    {
+      "ccd_atom_name": "CAV",
+      "coord_A": [
+        135.31,
+        122.163,
+        118.969
+      ],
+      "element": "C",
+      "molecule_atom_index": 22
+    },
+    {
+      "ccd_atom_name": "CAH",
+      "coord_A": [
+        135.575,
+        122.752,
+        120.212
+      ],
+      "element": "C",
+      "molecule_atom_index": 23
+    }
+  ],
+  "auth_chain": "A",
+  "auth_residue": 702,
+  "box_center_A": [
+    135.153,
+    124.06649999999999,
+    121.356
+  ],
+  "box_size_A": [
+    16.75200000000001,
+    19.25500000000001,
+    21.052000000000007
+  ],
+  "component": "8PR",
+  "entry": "6VRH",
+  "evaluation_frame": "unchanged deposited protein frame; no ligand fit or alignment"
+}

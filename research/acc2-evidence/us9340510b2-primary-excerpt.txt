@@ -1,0 +1,56 @@
+PRIMARY SOURCE RECORD EXCERPT: US PATENT 9,340,510 B2
+Title: Tetrahydroisoquinoline derivatives, pharmaceutical compositions and uses thereof
+Assignee: Boehringer Ingelheim International GmbH
+Inventors: Gerald Juergen Roth, Martin Fleck, Peter Wilhelm Haebel, Annekatrin Heimann, Niklas Heine
+Filing Date: September 16, 2015
+Issue Date: May 17, 2016
+Earliest Priority: PCT/EP2015/070741 (September 11, 2014)
+Source URL: https://patents.google.com/patent/US9340510B2/en
+Extracted: 2026-09-23T03:15:00Z
+
+================================================================================
+BIOLOGICAL TESTING DESCRIPTION (PARAGRAPHS [0224] - [0235])
+================================================================================
+[0224] Malonyl CoA formation by acetyl CoA carboxylases is stoichiometrically linked to the consumption of ATP. ACC2 activity is measured in a NADH-linked kinetic method measuring ADP generated during the ACC reaction using a coupled lactate dehydrogenase/pyruvate kinase reaction.
+
+[0225] For biological testing, a human ACC2 construct which lacks the 128 amino acids at the N-terminus for increased solubility (nt 385-6966 in Genbank entry AJ575592) is cloned. The protein is then expressed in insect cells using a baculoviral expression system. Protein purification is performed by anion exchange.
+
+[0226] DMSO: dimethyl sulfoxide.
+
+[0227] Assay reactions are then carried out in 384-well plates, with hACC2 in an appropriate dilution and at final assay concentrations (f.c.) of 100 mM Tris (pH 7.5), 10 mM trisodium citrate, 25 mM KHCO3, 10 mM MgCl2, 0.5 mg/ml BSA, 3.75 mM reduced L-glutathione, 15 U/ml lactate dehydrogenase, 0.5 mM phosphoenolpyruvate, 15 U/ml pyruvate kinase, compounds at different concentrations at final DMSO concentrations of 1%.
+
+[0228] The enzymatic reaction is then started by addition of a mixture of NADH, acetyl Coenzyme A (both 2000 uM f.c.) and ATP (500 uM f.c.). The decrease of the optical density (slope S) is then determined at 25 deg C at a wavelength of 340 nm over 15 minutes in a spectrophotometric reader.
+
+[0229] Each assay microtiter plate contains wells with vehicle instead of compound as controls for the non-inhibited enzyme (100% CTL; "HIGH") and wells without acetyl-CoA as controls for non-specific NADH degradation (0% CTL; "LOW").
+
+[0230] The slope S is used for calculation of %(CTL) = (S(compound) - S("LOW")) / (S("HIGH") - S("LOW")) * 100. Compounds will give values between 100% CTL (no inhibition) and 0% CTL (complete inhibition).
+
+[0231] For background correction, the slope of the negative controls is subtracted from the slopes of the test compounds.
+
+[0232] The IC50 values are determined from the dose-response curves using a four-parameter logistic curve fit.
+
+[0233] The compounds of general formula (I) according to the invention for example have IC50 values below 5000 nM, particularly below 1000 nM, preferably below 300 nM, most preferably below 100 nM.
+
+[0234] In the following table the activity expressed as IC50 (uM) of compounds according to the invention is presented:
+
+[0235] (Selected entry from Table):
+Example 1.001: IC50 = 0.293 uM
+Example 1.002: IC50 = 0.524 uM   <-- CHEMBL3928386 (524 nM)
+Example 1.003: IC50 = 0.265 uM
+Example 1.004: IC50 = 0.206 uM
+
+================================================================================
+SYNTHESIS OF EXAMPLE 1.2 (TABLE 14, PARAGRAPH [0709])
+================================================================================
+General Procedure (Example 1.1):
+To 74 mg (0.37 mmol) 6-trifluoromethyl-1,2,3,4-tetrahydro-isoquinoline and 70 mg (0.37 mmol) N-(1-(4-Formylphenyl)ethyl)acetamide (example I) in 2 mL THF are added 63 uL (1.1 mmol) AcOH and the reaction mixture is stirred at r.t. for 10 min. The resulting mixture is cooled to 0 deg C, 117 mg (0.551 mmol) sodium triacetoxyborohydride are added and the reaction mixture is stirred at r.t. for 2 h. After that time, the reaction is quenched by the addition of 200 uL water and purified by HPLC.
+
+Table 14, Entry 1.2:
+Example: 1.2
+Starting materials: 6-Methoxycarbonyl-1,2,3,4-tetrahydro-isoquinoline hydrochloride + Example I (N-(1-(4-Formylphenyl)ethyl)acetamide)
+Structure: methyl 2-(4-(1-acetamidoethyl)benzyl)-1,2,3,4-tetrahydroisoquinoline-6-carboxylate
+SMILES: COC(=O)c1ccc2c(c1)CCN(Cc1ccc(C(C)NC(C)=O)cc1)C2
+Formula: C22H26N2O3 (MW = 366.46 g/mol)
+ESI-MS: 367 [M+H]+
+HPLC retention time: 0.85 min (method A)
+Biological activity: Reported in biological table as Example 1.002, IC50 = 0.524 uM (524 nM).

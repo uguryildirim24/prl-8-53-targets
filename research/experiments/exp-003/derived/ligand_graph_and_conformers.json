@@ -1,0 +1,279 @@
+{
+  "atom_index_to_ccd_name": {
+    "0": "FAA",
+    "1": "CAR",
+    "2": "CAB",
+    "3": "CAE",
+    "4": "CAT",
+    "5": "CAF",
+    "6": "CAC",
+    "7": "CAX",
+    "8": "CAJ",
+    "9": "CAI",
+    "10": "NAN",
+    "11": "CAK",
+    "12": "CAW",
+    "13": "CAM",
+    "14": "OAO",
+    "15": "CAS",
+    "16": "CAD",
+    "17": "CAG",
+    "18": "CAU",
+    "19": "OAP",
+    "20": "CAL",
+    "21": "OAQ",
+    "22": "CAV",
+    "23": "CAH"
+  },
+  "graph_check": {
+    "canonical_isomeric_smiles_from_ccd": "Fc1ccc(cc1)[C@@H]2CCNC[C@H]2COc3ccc4OCOc4c3",
+    "ccd_heavy_edges": [
+      [
+        "FAA",
+        "CAR",
+        "SING",
+        "N"
+      ],
+      [
+        "CAR",
+        "CAB",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAB",
+        "CAE",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAR",
+        "CAC",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAC",
+        "CAF",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAS",
+        "CAD",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAD",
+        "CAG",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAE",
+        "CAT",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAF",
+        "CAT",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAU",
+        "CAG",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAH",
+        "CAS",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAH",
+        "CAV",
+        "DOUB",
+        "Y"
+      ],
+      [
+        "CAJ",
+        "CAI",
+        "SING",
+        "N"
+      ],
+      [
+        "CAI",
+        "NAN",
+        "SING",
+        "N"
+      ],
+      [
+        "CAJ",
+        "CAX",
+        "SING",
+        "N"
+      ],
+      [
+        "CAW",
+        "CAK",
+        "SING",
+        "N"
+      ],
+      [
+        "NAN",
+        "CAK",
+        "SING",
+        "N"
+      ],
+      [
+        "OAQ",
+        "CAL",
+        "SING",
+        "N"
+      ],
+      [
+        "OAP",
+        "CAL",
+        "SING",
+        "N"
+      ],
+      [
+        "CAW",
+        "CAM",
+        "SING",
+        "N"
+      ],
+      [
+        "CAM",
+        "OAO",
+        "SING",
+        "N"
+      ],
+      [
+        "OAO",
+        "CAS",
+        "SING",
+        "N"
+      ],
+      [
+        "CAU",
+        "OAP",
+        "SING",
+        "N"
+      ],
+      [
+        "CAV",
+        "OAQ",
+        "SING",
+        "N"
+      ],
+      [
+        "CAT",
+        "CAX",
+        "SING",
+        "N"
+      ],
+      [
+        "CAV",
+        "CAU",
+        "SING",
+        "Y"
+      ],
+      [
+        "CAX",
+        "CAW",
+        "SING",
+        "N"
+      ]
+    ],
+    "ccd_named_heavy_atoms": [
+      "FAA",
+      "CAB",
+      "CAC",
+      "CAD",
+      "CAE",
+      "CAF",
+      "CAG",
+      "CAH",
+      "CAI",
+      "CAJ",
+      "CAK",
+      "CAL",
+      "CAM",
+      "NAN",
+      "OAO",
+      "OAP",
+      "OAQ",
+      "CAR",
+      "CAS",
+      "CAT",
+      "CAU",
+      "CAV",
+      "CAW",
+      "CAX"
+    ],
+    "configured_atoms": {
+      "CAW": "S",
+      "CAX": "R"
+    },
+    "formula": "C19H20FNO3",
+    "graph_isomorphisms": 2,
+    "heavy_atoms": 24,
+    "heavy_heavy_bonds": 27,
+    "mapped_configured_atoms": {
+      "CAW": "S",
+      "CAX": "R"
+    },
+    "rdkit_canonical_isomeric_smiles": "Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+    "stereochemistry_preserving_name_maps": 2
+  },
+  "rdkit_version": "2026.03.6",
+  "source_coordinate_use": "none; CCD model/ideal and deposited 8PR coordinates excluded from conformer generation",
+  "states": [
+    {
+      "canonical_isomeric_smiles": "Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+      "conformer_seed": 2201,
+      "embed_status": 0,
+      "formal_charge": 0,
+      "formula": "C19H20FNO3",
+      "heavy_atoms": 24,
+      "id": "paroxetine_neutral",
+      "mmff_optimize_status": 0,
+      "stereocenters": [
+        [
+          7,
+          "R"
+        ],
+        [
+          12,
+          "S"
+        ]
+      ]
+    },
+    {
+      "canonical_isomeric_smiles": "Fc1ccc([C@@H]2CC[NH2+]C[C@H]2COc2ccc3c(c2)OCO3)cc1",
+      "conformer_seed": 2202,
+      "embed_status": 0,
+      "formal_charge": 1,
+      "formula": "C19H21FNO3+",
+      "heavy_atoms": 24,
+      "id": "paroxetine_protonated",
+      "mmff_optimize_status": 0,
+      "stereocenters": [
+        [
+          7,
+          "R"
+        ],
+        [
+          12,
+          "S"
+        ]
+      ]
+    }
+  ]
+}

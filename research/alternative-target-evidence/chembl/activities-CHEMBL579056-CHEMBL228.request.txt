@@ -1,0 +1,4 @@
+request_start_utc=2026-09-23T03:14:47.092Z
+request_end_utc=2026-09-23T03:14:48.733Z
+http_status=200
+url=https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL579056&target_chembl_id=CHEMBL228&limit=1000

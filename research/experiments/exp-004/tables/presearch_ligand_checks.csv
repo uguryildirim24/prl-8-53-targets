@@ -1,0 +1,5 @@
+ligand,state,formal_charge,pdbqt_atoms_including_polar_H,gasteiger_charge_sum,charge_sum_within_0.01,source_pdbqt_max_coordinate_delta_A,pdbqt_nitrogen_sign,pdbqt_nitrogen_determinant_A3,pdbqt_remark_smiles,complete_heavy_graph_maps
+prl_neutral_c1,neutral,0,21,-0.0,True,0.000735,1,2.338742,COC(=O)c1cccc(CCN(C)Cc2ccccc2)c1,2
+prl_neutral_c2,neutral,0,21,-0.0,True,0.000768,-1,-2.158418,COC(=O)c1cccc(CCN(C)Cc2ccccc2)c1,2
+prl_protonated_c1,protonated,1,22,1.002,True,0.000707,-1,-2.339658,COC(=O)c1cccc(CC[N@@H+](C)Cc2ccccc2)c1,2
+prl_protonated_c2,protonated,1,22,1.002,True,0.000755,1,2.106106,COC(=O)c1cccc(CC[N@H+](C)Cc2ccccc2)c1,2

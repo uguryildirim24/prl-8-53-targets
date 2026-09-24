@@ -1,0 +1,7 @@
+state,formal_charge,seed,saved_modes,top_score,top_pose_RMSD_A,top_contacts_retained,top_contact_jaccard,closest_mode_rank,closest_mode_RMSD_A,closest_mode_score,closest_contacts_retained,elapsed_seconds,sampled_peak_tree_RSS_bytes,observed_nice_values
+paroxetine_neutral,0,2301,20,-10.409,0.5572,15,0.9375,1,0.5572,-10.409,15,3.606,478134272,19
+paroxetine_neutral,0,2302,20,-10.437,0.5579,15,0.9375,1,0.5579,-10.437,15,3.613,478134272,19
+paroxetine_neutral,0,2303,20,-10.547,0.6189,14,0.875,1,0.6189,-10.547,14,3.672,478052352,19
+paroxetine_protonated,1,2401,20,-10.458,1.6352,14,0.8235,1,1.6352,-10.458,14,3.766,486326272,19
+paroxetine_protonated,1,2402,20,-10.451,1.6207,14,0.8235,1,1.6207,-10.451,14,3.715,486244352,19
+paroxetine_protonated,1,2403,20,-10.448,1.6535,14,0.8235,1,1.6535,-10.448,14,3.759,486440960,19

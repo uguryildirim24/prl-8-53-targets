@@ -1,0 +1,3 @@
+pdb	atom_site_count	atom_site_occupancy_values	zero_occupancy_coordinate_count	partial_occupancy_coordinate_count	unobserved_atom_category_present	unobserved_atom_record_count	target_unobserved_atom_records	unobserved_residue_record_count
+6VRH	6142	1.00	0	0	True	7	A:ASN:145:CG:occupancy_flag=1,A:ASN:145:OD1:occupancy_flag=1,A:ASN:145:ND2:occupancy_flag=1,A:LYS:201:CG:occupancy_flag=1,A:LYS:201:CD:occupancy_flag=1,A:LYS:201:CE:occupancy_flag=1,A:LYS:201:NZ:occupancy_flag=1	301
+8EF5	11705	1.00	0	0	False	0		670

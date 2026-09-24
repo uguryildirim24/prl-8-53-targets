@@ -1,0 +1,14 @@
+R4 REVIEWED EVIDENCE CHECK
+JSON payloads parsed: 19
+Withdrawn generated files removed before publication: 5 (hashes recorded in manifest.md)
+6VRH citation DOI (RCSB): 10.7554/eLife.56427
+4DKL citation DOI (RCSB): 10.1038/nature10954
+5I6X mapped deposited-sequence substitutions: Y110A, I291A, T439S, C554A, C580A
+8EF5 SIFTS mapping used: entity 1..367 -> P35372 2..368
+4DKL SIFTS mapping used: entity 1..212 -> P42866 52..263
+TM3 local windows: human 144..154=IVISIDYYNMF; mouse 142..152=IVISIDYYNMF
+TM5 local windows: human 230..240=WENLLKICVFI; mouse 228..238=WENLLKICVFI
+Cited local residues: human D149/mouse D147; human L233; human K235/mouse K233
+No full-length human/mouse alignment was performed or inferred.
+ChEMBL activity payloads 879137 and 1682463 contain no confidence_score field.
+PASS

@@ -1,0 +1,10 @@
+{
+  "alt-svc": "h3=\":443\";ma=60;",
+  "connection": "close",
+  "content-type": "application/json",
+  "date": "Wed, 23 Sep 2026 03:36:44 GMT",
+  "strict-transport-security": "max-age=16000000; includeSubDomains; preload;",
+  "transfer-encoding": "chunked",
+  "vary": "origin,access-control-request-method,access-control-request-headers,accept-encoding",
+  "x-backend-hostname": "production-rcsb-yosemite-b-5fd55c8984-vpvp7"
+}

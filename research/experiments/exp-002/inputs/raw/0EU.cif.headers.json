@@ -1,0 +1,14 @@
+{
+  "Age": "243",
+  "Connection": "close",
+  "Content-Disposition": "attachment;filename=0EU.cif",
+  "Content-Type": "chemical/x-cif",
+  "Date": "Wed, 23 Sep 2026 03:32:42 GMT",
+  "Transfer-Encoding": "chunked",
+  "Vary": "Origin",
+  "Via": "1.1 d4b337800b3ac25893c356b9d1f760fa.cloudfront.net (CloudFront)",
+  "X-Amz-Cf-Id": "ofnU-8q6PoY4qciRl4tt1XqLvSnrPbtmr-T2NLuHOu7ChJVFEnRv3Q==",
+  "X-Amz-Cf-Pop": "JFK50-P16",
+  "X-Cache": "Hit from cloudfront",
+  "strict-transport-security": "max-age=16000000; includeSubDomains; preload;"
+}

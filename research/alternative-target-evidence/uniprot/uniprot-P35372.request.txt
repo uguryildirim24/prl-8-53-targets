@@ -1,0 +1,4 @@
+request_start_utc=2026-09-23T03:15:12.168Z
+request_end_utc=2026-09-23T03:15:12.761Z
+http_status=200
+url=https://rest.uniprot.org/uniprotkb/P35372.json

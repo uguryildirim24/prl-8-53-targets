@@ -1,0 +1,190 @@
+{
+  "assemblies": {
+    "1": {
+      "details": "author_defined_assembly",
+      "id": "1",
+      "oligomeric_count": 1,
+      "oligomeric_details": "monomeric",
+      "rcsb_candidate_assembly": "Y",
+      "rcsb_details": "author_defined_assembly"
+    },
+    "2": {
+      "details": "software_defined_assembly",
+      "id": "2",
+      "method_details": "PISA",
+      "oligomeric_count": 2,
+      "oligomeric_details": "dimeric",
+      "rcsb_candidate_assembly": "Y",
+      "rcsb_details": "software_defined_assembly"
+    },
+    "assembly2_generation": [
+      {
+        "assembly_id": "2",
+        "asym_id_list": [
+          "A",
+          "B",
+          "C"
+        ],
+        "oper_expression": "1,2",
+        "ordinal": 2
+      }
+    ],
+    "operator2": {
+      "id": "2",
+      "matrix_1_1": 1.0,
+      "matrix_1_2": 0.0,
+      "matrix_1_3": 0.0,
+      "matrix_2_1": 0.0,
+      "matrix_2_2": -1.0,
+      "matrix_2_3": 0.0,
+      "matrix_3_1": 0.0,
+      "matrix_3_2": 0.0,
+      "matrix_3_3": -1.0,
+      "name": "4_566",
+      "symmetry_operation": "x,-y+1,-z+1",
+      "type": "crystal symmetry operation",
+      "vector_1": 0.0,
+      "vector_2": 119.756,
+      "vector_3": 146.035
+    },
+    "selection": "software-defined PISA dimer assembly 2 retained because its symmetry-related chain contributes direct native-site contacts; author-defined assembly 1 is a monomer and omits those contacts"
+  },
+  "current_identity": {
+    "depositor_dbref_discrepancy": "Deposited mmCIF DBREF uses obsolete Q59GJ9 and maps entity 1-756 to database 921-1676, whereas current RCSB SIFTS maps it to O00763 residues 1690-2445. Author coordinate numbering is 1715-2470; six C-terminal histidines are tag residues 2471-2476.",
+    "direct_sequence_differences_from_current_O00763_1690_2445": [
+      {
+        "author_residue_number": 2166,
+        "construct_residue": "I",
+        "current_uniprot_position": 2141,
+        "current_uniprot_residue": "V",
+        "entity_position": 452
+      }
+    ],
+    "isoform_note": "The deposit calls the molecule an ACC2 variant and assigns no current UniProt isoform identifier. Current RCSB SIFTS maps it to canonical O00763; direct comparison finds the single I/V difference recorded here.",
+    "organism": "Homo sapiens",
+    "protein_name": "Acetyl-CoA carboxylase 2",
+    "rcsb_sifts_alignment": [
+      {
+        "aligned_regions": [
+          {
+            "entity_beg_seq_id": 1,
+            "length": 756,
+            "ref_beg_seq_id": 1690
+          }
+        ],
+        "provenance_source": "SIFTS",
+        "reference_database_accession": "O00763",
+        "reference_database_name": "UniProt"
+      }
+    ],
+    "sequence_length": 2458,
+    "uniprot_accession": "O00763",
+    "uniprot_entry": "ACACB_HUMAN"
+  },
+  "docking_box": {
+    "center_A": [
+      36.237,
+      63.819,
+      50.773
+    ],
+    "definition": "axis-aligned native 0EU heavy-atom bounds plus 6.0 A padding on each face",
+    "size_A": [
+      18.552,
+      22.095,
+      23.399
+    ]
+  },
+  "entry": "3TDC",
+  "native_ligand": {
+    "author_residue_number": 3000,
+    "bounding_box_A": {
+      "x": [
+        32.961,
+        39.513
+      ],
+      "y": [
+        58.771,
+        68.866
+      ],
+      "z": [
+        45.074,
+        56.473
+      ]
+    },
+    "chain": "A",
+    "component": "0EU",
+    "heavy_atom_altlocs": [],
+    "heavy_atom_b_factor_mean_range_A2": [
+      19.408,
+      11.62,
+      35.21
+    ],
+    "heavy_atom_count": 36,
+    "heavy_atom_occupancy_min_max": [
+      1.0,
+      1.0
+    ],
+    "stereochemistry": "CCD specifies the spiro center as S (InChI /t27-/m0/s1; stereo SMILES retained in source record)"
+  },
+  "preparation": {
+    "assembly": "3TDC assembly 2, chains renamed A and B only for PDB compatibility",
+    "missing_residues": "left absent",
+    "removed": "both 0EU copies and all crystallographic waters; no ions or other cofactors are present",
+    "retained": "all resolved standard protein atoms from both symmetry-related chains"
+  },
+  "resolution_A": 2.41,
+  "site": {
+    "contact_table": "../tables/native_site_contacts.csv",
+    "interpretation": "No missing range is silently modeled. Resolved residues flanking all three missing ranges are at least 41.991 A from 0EU, so no resolved gap boundary is adjacent to the observed site. Endpoint distances do not establish where a flexible missing segment could reach or prove that the omissions cannot influence the pocket.",
+    "missing_author_residue_ranges": [
+      [
+        1715,
+        1718
+      ],
+      [
+        2415,
+        2427
+      ],
+      [
+        2452,
+        2476
+      ]
+    ],
+    "protein_residue_contacts_within_4.5_A": 20,
+    "resolved_flank_distances": [
+      {
+        "author_residue_number": 1719,
+        "minimum_distance_to_0EU_A": 41.991,
+        "residue": "THR"
+      },
+      {
+        "author_residue_number": 2414,
+        "minimum_distance_to_0EU_A": 56.994,
+        "residue": "TRP"
+      },
+      {
+        "author_residue_number": 2428,
+        "minimum_distance_to_0EU_A": 57.63,
+        "residue": "ILE"
+      },
+      {
+        "author_residue_number": 2451,
+        "minimum_distance_to_0EU_A": 63.165,
+        "residue": "ALA"
+      }
+    ],
+    "symmetry_mate_contacts_within_4.5_A": 14,
+    "waters_within_3.5_A": [
+      {
+        "author_residue_number": 4449,
+        "chain": "A",
+        "minimum_distance_A": 3.474
+      },
+      {
+        "author_residue_number": 4302,
+        "chain": "B(symmetry mate)",
+        "minimum_distance_A": 3.224
+      }
+    ]
+  }
+}

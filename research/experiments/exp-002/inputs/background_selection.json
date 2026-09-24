@@ -1,0 +1,28 @@
+{
+  "selected_before_any_PRL_docking_scores_were_generated": true,
+  "selection_method": "Four deliberately small comparison entries were chosen to span neutral and +1 charge, calculated lipophilicity below and around PRL, and four to six rotatable bonds while remaining in a nearby molecular-weight range. They are geometric/scoring background only, not assay-supported nonbinders or calibrated decoys.",
+  "entries": [
+    {
+      "id": "diphenhydramine_neutral",
+      "smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+      "reason": "neutral flexible diaryl tertiary amine; similar rotor count and calculated lipophilicity"
+    },
+    {
+      "id": "diphenhydramine_protonated",
+      "smiles": "C[NH+](C)CCOC(c1ccccc1)c1ccccc1",
+      "reason": "+1 state of the same flexible diaryl scaffold, separating charge-state from topology in this model"
+    },
+    {
+      "id": "procaine_protonated",
+      "smiles": "CC[NH+](CC)CCOC(=O)c1ccc(N)cc1",
+      "reason": "+1 flexible amino ester with lower calculated lipophilicity and molecular weight"
+    },
+    {
+      "id": "benzyl_phenylacetate",
+      "smiles": "O=C(Cc1ccccc1)OCc1ccccc1",
+      "reason": "neutral two-ring ester with fewer rotatable bonds and no basic nitrogen"
+    }
+  ],
+  "stereochemistry": "All four selected graphs are achiral as written; no unspecified stereocenter is introduced.",
+  "warning": "No entry is labeled inactive. No ACC2 assay evidence was used or implied. This tiny set cannot calibrate enrichment or binding probability."
+}

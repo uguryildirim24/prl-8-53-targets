@@ -1,0 +1,27 @@
+captured_utc=2026-09-23T06:00:00Z
+Darwin localhost 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050 arm64 arm Darwin
+localhost
+ProductName:		macOS
+ProductVersion:		27.0
+BuildVersion:		26A428
+logical_cpus=18
+physical_memory_bytes=25769803776
+python=3.13.15 (main, Aug 14 2026, 15:24:40) [Clang 22.1.3 ]
+rdkit=2026.03.6
+meeko=0.8.0
+gemmi=0.7.5
+numpy=2.5.3
+scipy=1.18.1
+AutoDock Vina v1.2.7
+823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1  <repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+file size               (blocks, -f) unlimited
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1048575
+pipe size            (512 bytes, -p) 1
+stack size              (kbytes, -s) 8176
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4000
+virtual memory          (kbytes, -v) unlimited

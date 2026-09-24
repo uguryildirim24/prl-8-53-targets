@@ -1,0 +1,175 @@
+{
+  "all_ligand_charge_sums_match": true,
+  "all_pose_outputs_complete": true,
+  "all_pose_rows": 120,
+  "all_source_hashes_match": true,
+  "analysis_check": true,
+  "extra_pose_files": [],
+  "graph_and_stereochemistry_check": true,
+  "ligand_charge_checks": [
+    {
+      "expected_formal_charge": 0,
+      "pdbqt_atoms_including_polar_H": 25,
+      "pdbqt_gasteiger_charge_sum": 0.001,
+      "state": "paroxetine_neutral",
+      "within_rounding_0.01": true
+    },
+    {
+      "expected_formal_charge": 1,
+      "pdbqt_atoms_including_polar_H": 26,
+      "pdbqt_gasteiger_charge_sum": 1.001,
+      "state": "paroxetine_protonated",
+      "within_rounding_0.01": true
+    }
+  ],
+  "output_checks": [
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2301,
+      "state": "paroxetine_neutral"
+    },
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2302,
+      "state": "paroxetine_neutral"
+    },
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2303,
+      "state": "paroxetine_neutral"
+    },
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2401,
+      "state": "paroxetine_protonated"
+    },
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2402,
+      "state": "paroxetine_protonated"
+    },
+    {
+      "all_sdf_molecules_read": true,
+      "pdbqt_models": 20,
+      "sdf_molecules": 20,
+      "seed": 2403,
+      "state": "paroxetine_protonated"
+    }
+  ],
+  "passed": true,
+  "receptor_check": {
+    "histidine_hydrogen_names": {
+      "143": [
+        "H",
+        "HA",
+        "HB2",
+        "HB3",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "223": [
+        "H",
+        "HA",
+        "HB2",
+        "HB3",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "235": [
+        "H",
+        "HA",
+        "HB2",
+        "HB3",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "240": [
+        "H",
+        "HA",
+        "HB2",
+        "HB3",
+        "HD2",
+        "HE1",
+        "HE2"
+      ],
+      "456": [
+        "H",
+        "HA",
+        "HB2",
+        "HB3",
+        "HD2",
+        "HE1",
+        "HE2"
+      ]
+    },
+    "maximum_retained_heavy_atom_coordinate_delta_A": 0.0,
+    "ok": true,
+    "prepared_heavy_atoms": 4301,
+    "removed_heavy_atoms": 10,
+    "removed_residues": [
+      [
+        "A",
+        145
+      ],
+      [
+        "A",
+        201
+      ]
+    ],
+    "unexpected_heavy_atoms": 0
+  },
+  "run_count": 6,
+  "run_matrix_and_resource_check": true,
+  "scope_check": "six native-paroxetine searches only; no PRL/background/other-target pose paths or prediction-service inputs",
+  "source_hash_checks": [
+    {
+      "actual_sha256": "15523af08c4701aa9cce327b41987c121702cedddf1840ceab2558c9c3eb7b61",
+      "expected_sha256": "15523af08c4701aa9cce327b41987c121702cedddf1840ceab2558c9c3eb7b61",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/6VRH.cif"
+    },
+    {
+      "actual_sha256": "501a2f048936dc4f88521b09c4f9035eafb6ee2a23f3571a0083baaa98181bda",
+      "expected_sha256": "501a2f048936dc4f88521b09c4f9035eafb6ee2a23f3571a0083baaa98181bda",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/6VRH-assembly1.cif"
+    },
+    {
+      "actual_sha256": "e0c0df63947282ab7ef9f4dc48fc6637d0c8ce32157cb01835f4ece29d64e8c4",
+      "expected_sha256": "e0c0df63947282ab7ef9f4dc48fc6637d0c8ce32157cb01835f4ece29d64e8c4",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/ccd-8PR.cif"
+    },
+    {
+      "actual_sha256": "868233b46bee7107caf5611e43c8f63facfeeb4e6761397d693e3b80a419a116",
+      "expected_sha256": "868233b46bee7107caf5611e43c8f63facfeeb4e6761397d693e3b80a419a116",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/rcsb-chemcomp-8PR.json"
+    },
+    {
+      "actual_sha256": "14af22a5d384687a865fe9f7bf23fe0fe22900321dce33ca7eb41363a754013e",
+      "expected_sha256": "14af22a5d384687a865fe9f7bf23fe0fe22900321dce33ca7eb41363a754013e",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/rcsb-entry-6VRH.json"
+    },
+    {
+      "actual_sha256": "77eb5ce87c3c4d426f5e5baa86ff3f11fb46976ec0658ed5388f42dad6d126f7",
+      "expected_sha256": "77eb5ce87c3c4d426f5e5baa86ff3f11fb46976ec0658ed5388f42dad6d126f7",
+      "ok": true,
+      "path": "research/alternative-coordinate-evidence/raw/wwpdb-6vrh-validation.xml.gz"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+exp-003 pre-run environment and resource policy
+captured_utc=2026-09-23T05:08:04Z
+machine=local Mac (Darwin arm64)
+os=Darwin 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050 arm64 arm
+logical_cpu_count=18
+physical_memory_bytes=25769803776
+python=Python 3.13.15
+rdkit=2026.03.6
+gemmi=0.7.5
+meeko=0.8.0
+numpy=2.5.3
+scipy=1.18.1
+vina=AutoDock Vina v1.2.7
+vina_sha256=823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1
+runtime_provenance=<repo>/research/experiments/exp-002
+scheduler=all computational subprocesses nice -n 19; searches strictly serialized; Vina --cpu 2 and OMP_NUM_THREADS=2; numerical-library thread variables=1
+monitor=run_vina_one.py samples only its Vina child tree with ps every 0.1 s; terminate at sampled 3221225472 bytes tree RSS or 1200 s per search
+memory_limit_note=macOS shell virtual-memory/data/resident limits were observed as unlimited. The sampled 3 GiB stop is not a hard kernel limit; short peaks, other processes and aggregate project memory are unmeasured.
+scope=no remote box, helper, container, global install, new source retrieval or prediction-service request

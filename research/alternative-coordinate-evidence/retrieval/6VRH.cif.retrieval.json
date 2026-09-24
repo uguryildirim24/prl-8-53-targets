@@ -1,0 +1,65 @@
+{
+  "bytes": 736958,
+  "completed_utc": "2026-09-23T04:07:41.347Z",
+  "final_url": "https://files.rcsb.org/download/6VRH.cif",
+  "http_status": 200,
+  "payload": "raw/6VRH.cif",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://files.rcsb.org/download/6VRH.cif",
+  "response_headers": [
+    [
+      "Content-Type",
+      "chemical/x-cif"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Disposition",
+      "attachment;filename=6VRH.cif"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:07:41 GMT"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "X-Cache",
+      "Miss from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 7e0c1ebb759362e1d5ed505d30e7b186.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "BOS50-P5"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "by_fRF-TtLxk14_J-G5AJ3U0sAmeJNGD9MY2WE4TNXjIwAgjJh-1hg=="
+    ],
+    [
+      "Vary",
+      "Origin"
+    ]
+  ],
+  "sha256": "15523af08c4701aa9cce327b41987c121702cedddf1840ceab2558c9c3eb7b61",
+  "started_utc": "2026-09-23T04:07:40.730Z"
+}

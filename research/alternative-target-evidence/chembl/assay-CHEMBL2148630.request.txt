@@ -1,0 +1,4 @@
+request_start_utc=2026-09-23T03:14:52.117Z
+request_end_utc=2026-09-23T03:14:53.378Z
+http_status=200
+url=https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL2148630.json

@@ -1,0 +1,12 @@
+captured_utc=2026-09-23T04:20:35Z
+uname=Darwin localhost 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050 arm64 arm Darwin
+python=Python 3.13.15
+git_start_commit=29546240f997c227948f2de2fcde0b0c3def0931
+process=97752 19   2528 sh -c { printf "captured_utc="; date -u +%Y-%m-%dT%H:%M:%SZ; printf "uname="; uname -a; printf "python="; python3 --version 2>&1; printf "git_start_commit="; git rev-parse HEAD; printf "process="; ps -o pid=,ni=,rss=,command= -p $$; printf "ulimit_virtual_kbytes="; ulimit -v 2>/dev/null || printf "unsupported"; printf "OMP_NUM_THREADS=%s\nOPENBLAS_NUM_THREADS=%s\nMKL_NUM_THREADS=%s\nVECLIB_MAXIMUM_THREADS=%s\nNUMEXPR_NUM_THREADS=%s\n" "$OMP_NUM_THREADS" "$OPENBLAS_NUM_THREADS" "$MKL_NUM_THREADS" "$VECLIB_MAXIMUM_THREADS" "$NUMEXPR_NUM_THREADS"; printf "analysis_dependencies=Python_standard_library_only\n"; }
+ulimit_virtual_kbytes=unlimited
+OMP_NUM_THREADS=1
+OPENBLAS_NUM_THREADS=1
+MKL_NUM_THREADS=1
+VECLIB_MAXIMUM_THREADS=1
+NUMEXPR_NUM_THREADS=1
+analysis_dependencies=Python_standard_library_only

@@ -1,0 +1,65 @@
+{
+  "bytes": 10027,
+  "completed_utc": "2026-09-23T04:07:44.081Z",
+  "final_url": "https://files.rcsb.org/ligands/download/7V7.cif",
+  "http_status": 200,
+  "payload": "raw/ccd-7V7.cif",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://files.rcsb.org/ligands/download/7V7.cif",
+  "response_headers": [
+    [
+      "Content-Type",
+      "chemical/x-cif"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Disposition",
+      "attachment;filename=7V7.cif"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:07:44 GMT"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "X-Cache",
+      "Miss from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 16196541f2530b70e68f9d574143f202.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "BOS50-P5"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "ADlGPR4orDJVbRDPYhojsMGrhK7oc_pQmnQUpwUaAo7qxiMfa4_7Sw=="
+    ],
+    [
+      "Vary",
+      "Origin"
+    ]
+  ],
+  "sha256": "5f59c758b6eda498f01704c891ee15c7a1f4005cb0041980d0790b2d64cd0b15",
+  "started_utc": "2026-09-23T04:07:43.900Z"
+}

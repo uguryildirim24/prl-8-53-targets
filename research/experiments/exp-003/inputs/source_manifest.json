@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "bytes": 736958,
+      "path": "research/alternative-coordinate-evidence/raw/6VRH.cif",
+      "sha256": "15523af08c4701aa9cce327b41987c121702cedddf1840ceab2558c9c3eb7b61",
+      "verified": true
+    },
+    {
+      "bytes": 727357,
+      "path": "research/alternative-coordinate-evidence/raw/6VRH-assembly1.cif",
+      "sha256": "501a2f048936dc4f88521b09c4f9035eafb6ee2a23f3571a0083baaa98181bda",
+      "verified": true
+    },
+    {
+      "bytes": 10082,
+      "path": "research/alternative-coordinate-evidence/raw/ccd-8PR.cif",
+      "sha256": "e0c0df63947282ab7ef9f4dc48fc6637d0c8ce32157cb01835f4ece29d64e8c4",
+      "verified": true
+    },
+    {
+      "bytes": 11445,
+      "path": "research/alternative-coordinate-evidence/raw/rcsb-chemcomp-8PR.json",
+      "sha256": "868233b46bee7107caf5611e43c8f63facfeeb4e6761397d693e3b80a419a116",
+      "verified": true
+    },
+    {
+      "bytes": 22844,
+      "path": "research/alternative-coordinate-evidence/raw/rcsb-entry-6VRH.json",
+      "sha256": "14af22a5d384687a865fe9f7bf23fe0fe22900321dce33ca7eb41363a754013e",
+      "verified": true
+    },
+    {
+      "bytes": 45258,
+      "path": "research/alternative-coordinate-evidence/raw/wwpdb-6vrh-validation.xml.gz",
+      "sha256": "77eb5ce87c3c4d426f5e5baa86ff3f11fb46976ec0658ed5388f42dad6d126f7",
+      "verified": true
+    }
+  ],
+  "new_network_requests": 0,
+  "retrieval_records": "research/alternative-coordinate-evidence/retrieval",
+  "source_package": "research/alternative-coordinate-evidence"
+}

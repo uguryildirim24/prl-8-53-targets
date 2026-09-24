@@ -1,0 +1,2 @@
+PASS: 32 retrieved payloads verified
+PASS: target mappings, assemblies, ligands, contacts, hetero inventory and map exclusion verified

@@ -1,0 +1,1 @@
+prepared_inputs=14 reused_inputs=3 searches=12

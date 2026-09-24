@@ -1,0 +1,10 @@
+{
+  "compound": "PRL-8-53 free base",
+  "pubchem_cid": 39989,
+  "inchi_key": "IGJQEMHBYKNIQR-UHFFFAOYSA-N",
+  "organism": "Homo_sapiens",
+  "neutral_smiles": "CN(CCc1cccc(c1)C(=O)OC)Cc2ccccc2",
+  "protonated_smiles": "C[NH+](CCc1cccc(c1)C(=O)OC)Cc2ccccc2",
+  "salt_cids_not_submitted": [39988, 70700868],
+  "salt_inchi_key_not_submitted": "HLBBSWSJLPLPRU-UHFFFAOYSA-N"
+}

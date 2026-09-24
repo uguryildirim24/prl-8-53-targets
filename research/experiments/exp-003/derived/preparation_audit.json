@@ -1,0 +1,95 @@
+{
+  "assembly": "deposited coordinates; assembly 1 has an identical auth-atom coordinate signature",
+  "box": {
+    "center_A": [
+      135.153,
+      124.06649999999999,
+      121.356
+    ],
+    "definition": "8PR deposited heavy-atom bounds plus 6.0 A each face",
+    "size_A": [
+      16.75200000000001,
+      19.25500000000001,
+      21.052000000000007
+    ]
+  },
+  "ligand": {
+    "alternate_locations": [],
+    "heavy_atoms": 24,
+    "occupancy_min_max": [
+      1.0,
+      1.0
+    ]
+  },
+  "maps_inspected": false,
+  "modeled_sodium_ions": 0,
+  "modeled_waters": 0,
+  "receptor": {
+    "auth_chain": "A",
+    "charge_model": "Meeko 0.8.0 standard templates and Gasteiger",
+    "histidine_assignment": "HIE for residues 143,223,235,240,456",
+    "histidine_minimum_distances_to_8PR_A": {
+      "143": 20.706,
+      "223": 33.987,
+      "235": 23.808,
+      "240": 26.615,
+      "456": 22.83
+    },
+    "incomplete_residues_not_reconstructed": {
+      "ASN145": {
+        "missing_atoms": [
+          "CG",
+          "OD1",
+          "ND2"
+        ],
+        "nearest_retained_atom_to_8PR_A": 15.656,
+        "preparation_action": "whole unresolved residue explicitly omitted"
+      },
+      "LYS201": {
+        "missing_atoms": [
+          "CG",
+          "CD",
+          "CE",
+          "NZ"
+        ],
+        "nearest_retained_atom_to_8PR_A": 36.647,
+        "preparation_action": "whole unresolved residue explicitly omitted"
+      }
+    },
+    "missing_segments_not_built": [
+      [
+        1,
+        76
+      ],
+      [
+        618,
+        630
+      ]
+    ],
+    "modeled_residue_range": [
+      77,
+      617
+    ],
+    "protein_residues": 541,
+    "reported_mutations": 0,
+    "resolved_protein_heavy_atoms_written": 4311
+  },
+  "removed_components": {
+    "CL:703": {
+      "heavy_atoms": 1,
+      "minimum_distance_to_8PR_A": 9.103
+    },
+    "LMT:705": {
+      "heavy_atoms": 35,
+      "minimum_distance_to_8PR_A": 8.731
+    },
+    "NAG:701": {
+      "heavy_atoms": 14,
+      "minimum_distance_to_8PR_A": 34.755
+    },
+    "NAG:704": {
+      "heavy_atoms": 14,
+      "minimum_distance_to_8PR_A": 48.394
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# ACC2 Primary Evidence Manifest
+
+Public raw payloads and excerpts collected for ACC2 source assay and structure feasibility review.
+
+| Filename | Bytes | SHA-256 (prefix) | HTTP Status | Retrieval UTC | Source URL / Description |
+|---|---|---|---|---|---|
+| [`chembl-activity-17768979-CHEMBL3928386.json`](chembl-activity-17768979-CHEMBL3928386.json) | 2355 | `dae2fd2ff76ca34d...` | 200 | 2026-09-23T03:15:28.416539Z | [ChEMBL activity record for CHEMBL3928386 on ACC2 (IC50 = 524 nM)](https://www.ebi.ac.uk/chembl/api/data/activity/17768979.json) |
+| [`chembl-assay-CHEMBL3888444.json`](chembl-assay-CHEMBL3888444.json) | 1826 | `e2e4732cd303463b...` | 200 | 2026-09-23T03:15:29.823409Z | [ChEMBL assay record for CHEMBL3888444 (Homo sapiens label and hACC2 description; no assay taxon ID; H/8 target assignment)](https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL3888444.json) |
+| [`chembl-compound-record-2880959.json`](chembl-compound-record-2880959.json) | 181 | `3ed60414ac83f871...` | 200 | 2026-09-23T03:15:30.371419Z | [ChEMBL compound record 2880959 mapping CHEMBL3928386 to US9340510 Ex 1.002 via BindingDB](https://www.ebi.ac.uk/chembl/api/data/compound_record/2880959.json) |
+| [`chembl-activities-CHEMBL1910396.json`](chembl-activities-CHEMBL1910396.json) | 2951 | `05359488f559a324...` | 200 | 2026-09-23T03:15:32.621266Z | [ChEMBL activities for CHEMBL1910396 showing ACC1 (10 uM) and ACC2 (750 nM)](https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1910396) |
+| [`chembl-assay-CHEMBL1912973.json`](chembl-assay-CHEMBL1912973.json) | 868 | `e6b819813171a5d7...` | 200 | 2026-09-23T03:15:32.986841Z | [ChEMBL assay record for CHEMBL1912973 (Inhibition of human ACC2)](https://www.ebi.ac.uk/chembl/api/data/assay/CHEMBL1912973.json) |
+| [`chembl-compound-record-1542641.json`](chembl-compound-record-1542641.json) | 268 | `373fbfca4f8a0641...` | 200 | 2026-09-23T03:15:33.361605Z | [ChEMBL compound record 1542641 mapping CHEMBL1910396 to compound 25c in Yamashita et al. 2011](https://www.ebi.ac.uk/chembl/api/data/compound_record/1542641.json) |
+| [`rcsb-pdb-entry-3TDC.json`](rcsb-pdb-entry-3TDC.json) | 15002 | `8ea9140b1f9cac2c...` | 200 | 2026-09-23T03:15:34.573199Z | [RCSB PDB core entry for 3TDC (human ACC2 CT domain with spirolactone inhibitor 0EU at 2.41 A)](https://data.rcsb.org/rest/v1/core/entry/3TDC) |
+| [`rcsb-pdb-entry-3FF6.json`](rcsb-pdb-entry-3FF6.json) | 18195 | `2c8dd1c7088f8908...` | 200 | 2026-09-23T03:15:34.686708Z | [RCSB PDB core entry for 3FF6 (human ACC2 CT domain with CP-640186 at 3.19 A)](https://data.rcsb.org/rest/v1/core/entry/3FF6) |
+| [`rcsb-pdb-entry-5KKN.json`](rcsb-pdb-entry-5KKN.json) | 14692 | `5ac43a911a0a0f5a...` | 200 | 2026-09-23T03:15:34.755612Z | [RCSB PDB core entry for 5KKN (human ACC2 BC domain with ND-646 at 2.60 A)](https://data.rcsb.org/rest/v1/core/entry/5KKN) |
+| [`rcsb-chemcomp-0EU.json`](rcsb-chemcomp-0EU.json) | 4446 | `3c73aad5fbd749b0...` | 200 | 2026-09-23T03:15:34.824194Z | [RCSB chemical component definition for 0EU (co-crystallized ligand in 3TDC)](https://data.rcsb.org/rest/v1/core/chemcomp/0EU) |
+| [`rcsb-chemcomp-RCP.json`](rcsb-chemcomp-RCP.json) | 4725 | `5271e80aaacb584d...` | 200 | 2026-09-23T03:15:34.873779Z | [RCSB chemical component definition for RCP / CP-640186 (co-crystallized ligand in 3FF6)](https://data.rcsb.org/rest/v1/core/chemcomp/RCP) |
+| [`us9340510b2-primary-excerpt.txt`](us9340510b2-primary-excerpt.txt) | 4522 | `697a0503c2015968...` | 200 | 2026-09-23T03:15:34.930509Z | [Primary text excerpt of US Patent 9,340,510 B2 (Boehringer Ingelheim) covering hACC2 assay protocol and Ex 1.2 / 1.002](https://patents.google.com/patent/US9340510B2/en) |

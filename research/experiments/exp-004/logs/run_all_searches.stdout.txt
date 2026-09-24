@@ -1,0 +1,12 @@
+{"elapsed_seconds": 3.974, "ligand": "prl_neutral_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445284352, "seed": 5301, "stop_reason": null}
+{"elapsed_seconds": 4.014, "ligand": "prl_neutral_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445399040, "seed": 5302, "stop_reason": null}
+{"elapsed_seconds": 4.013, "ligand": "prl_neutral_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445284352, "seed": 5303, "stop_reason": null}
+{"elapsed_seconds": 4.08, "ligand": "prl_neutral_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445366272, "seed": 5301, "stop_reason": null}
+{"elapsed_seconds": 3.955, "ligand": "prl_neutral_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445284352, "seed": 5302, "stop_reason": null}
+{"elapsed_seconds": 4.006, "ligand": "prl_neutral_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 445431808, "seed": 5303, "stop_reason": null}
+{"elapsed_seconds": 3.982, "ligand": "prl_protonated_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450723840, "seed": 5301, "stop_reason": null}
+{"elapsed_seconds": 4.002, "ligand": "prl_protonated_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450854912, "seed": 5302, "stop_reason": null}
+{"elapsed_seconds": 4.043, "ligand": "prl_protonated_c1", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450805760, "seed": 5303, "stop_reason": null}
+{"elapsed_seconds": 3.89, "ligand": "prl_protonated_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450822144, "seed": 5301, "stop_reason": null}
+{"elapsed_seconds": 4.021, "ligand": "prl_protonated_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450805760, "seed": 5302, "stop_reason": null}
+{"elapsed_seconds": 3.969, "ligand": "prl_protonated_c2", "observed_process_tree_nice_values": [20], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 450740224, "seed": 5303, "stop_reason": null}

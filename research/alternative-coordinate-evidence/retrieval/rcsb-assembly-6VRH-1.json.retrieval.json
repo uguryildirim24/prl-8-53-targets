@@ -1,0 +1,49 @@
+{
+  "bytes": 3698,
+  "completed_utc": "2026-09-23T04:07:47.046Z",
+  "final_url": "https://data.rcsb.org/rest/v1/core/assembly/6VRH/1",
+  "http_status": 200,
+  "payload": "raw/rcsb-assembly-6VRH-1.json",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://data.rcsb.org/rest/v1/core/assembly/6VRH/1",
+  "response_headers": [
+    [
+      "vary",
+      "origin,access-control-request-method,access-control-request-headers,accept-encoding"
+    ],
+    [
+      "x-backend-hostname",
+      "production-rcsb-yosemite-b-5fd55c8984-cmrjl"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "transfer-encoding",
+      "chunked"
+    ],
+    [
+      "date",
+      "Wed, 23 Sep 2026 04:07:47 GMT"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\";ma=60;"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "sha256": "5e8c6eabc0ec852f826d30f09fc317d9efd76798da1300a03d4f95e8f21d00f1",
+  "started_utc": "2026-09-23T04:07:46.983Z"
+}

@@ -1,0 +1,9 @@
+Template padding will be used.
+[32m gasteiger charges will be computed from scratch
+ [0m
+
+Files written:
+<repo>/research/experiments/exp-003/derived/receptor_6vrh_primary_prepared.pdb <-- processed receptor PDB
+       <repo>/research/experiments/exp-003/derived/receptor_6vrh_primary.pdbqt <-- static (i.e., rigid) receptor input file
+                      <repo>/research/experiments/exp-003/derived/vina_box.txt <-- Vina-style box dimension file
+     <repo>/research/experiments/exp-003/derived/receptor_6vrh_primary.box.pdb <-- PDB file to visualize the grid box

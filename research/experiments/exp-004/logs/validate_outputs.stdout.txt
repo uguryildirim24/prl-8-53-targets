@@ -1,0 +1,1 @@
+{"data_and_resource_integrity_passed": true, "effective_nice_exactly_19": false, "observed_nice": [20], "pairs": 14280, "poses": 240, "runs": 12}

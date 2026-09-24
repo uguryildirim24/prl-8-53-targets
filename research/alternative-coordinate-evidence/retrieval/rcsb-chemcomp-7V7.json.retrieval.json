@@ -1,0 +1,49 @@
+{
+  "bytes": 10038,
+  "completed_utc": "2026-09-23T04:07:43.710Z",
+  "final_url": "https://data.rcsb.org/rest/v1/core/chemcomp/7V7",
+  "http_status": 200,
+  "payload": "raw/rcsb-chemcomp-7V7.json",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://data.rcsb.org/rest/v1/core/chemcomp/7V7",
+  "response_headers": [
+    [
+      "vary",
+      "origin,access-control-request-method,access-control-request-headers,accept-encoding"
+    ],
+    [
+      "x-backend-hostname",
+      "production-rcsb-yosemite-b-5fd55c8984-rlxwb"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "transfer-encoding",
+      "chunked"
+    ],
+    [
+      "date",
+      "Wed, 23 Sep 2026 04:07:43 GMT"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\";ma=60;"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "sha256": "313f9f313a57ba4344b3b968e6b8b9fa926f1ef3e92890255c5e6ca72b04f289",
+  "started_utc": "2026-09-23T04:07:43.573Z"
+}

@@ -1,0 +1,8 @@
+id,expected_formal_charge,pdbqt_gasteiger_charge_sum,pdbqt_atoms_including_polar_H,within_rounding_0.01
+benzyl_phenylacetate,0,-0.003,17,True
+diphenhydramine_neutral,0,0.001,19,True
+diphenhydramine_protonated,1,0.999,20,True
+native_0EU,0,-0.0,38,True
+prl_neutral,0,-0.0,21,True
+prl_protonated,1,1.002,22,True
+procaine_protonated,1,0.999,20,True

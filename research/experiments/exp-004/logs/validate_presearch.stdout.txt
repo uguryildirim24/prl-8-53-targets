@@ -1,0 +1,1 @@
+{"charge_sums": [-0.0, -0.0, 1.002, 1.002], "ligands": 4, "nitrogen_signs": [1, -1, -1, 1], "passed": true}

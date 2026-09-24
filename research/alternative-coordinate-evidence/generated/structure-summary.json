@@ -1,0 +1,49 @@
+{
+  "analysis": "direct deposited-coordinate geometry",
+  "contact_cutoff_A": 4.0,
+  "contact_cutoff_interpretation": "descriptive inventory only; not a biological or docking success threshold",
+  "structures": {
+    "6VRH": {
+      "assembly1_atom_count": 6142,
+      "assembly_coordinate_signature_identical_to_deposited": true,
+      "canonical_target_sequence_length": 630,
+      "deposited_atom_count": 6142,
+      "deposited_target_sequence_length": 630,
+      "independent_sequence_substitutions": [],
+      "ligand": "8PR",
+      "ligand_instance_count": 1,
+      "maps_downloaded_or_inspected": false,
+      "method": "ELECTRON MICROSCOPY",
+      "nominal_resolution_A": [
+        3.3
+      ],
+      "sifts_aligned_length": 630,
+      "sifts_ref_begin": 1,
+      "target_accession": "P31645",
+      "target_entity": 1,
+      "target_taxonomy": 9606,
+      "title": "Cryo-EM structure of the wild-type human serotonin transporter complexed with paroxetine and 8B6 Fab"
+    },
+    "8EF5": {
+      "assembly1_atom_count": 11705,
+      "assembly_coordinate_signature_identical_to_deposited": true,
+      "canonical_target_sequence_length": 400,
+      "deposited_atom_count": 11705,
+      "deposited_target_sequence_length": 367,
+      "independent_sequence_substitutions": [],
+      "ligand": "7V7",
+      "ligand_instance_count": 2,
+      "maps_downloaded_or_inspected": false,
+      "method": "ELECTRON MICROSCOPY",
+      "nominal_resolution_A": [
+        3.3
+      ],
+      "sifts_aligned_length": 367,
+      "sifts_ref_begin": 2,
+      "target_accession": "P35372",
+      "target_entity": 1,
+      "target_taxonomy": 9606,
+      "title": "Fentanyl-bound mu-opioid receptor-Gi complex"
+    }
+  }
+}

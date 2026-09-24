@@ -1,0 +1,243 @@
+{
+  "interpretation": "continuous model variability only; no clustering, success or biological threshold",
+  "method": {
+    "contact_cutoff_A": 4.0,
+    "contact_cutoff_role": "descriptive inventory, not a biological threshold",
+    "coordinate_fitting": "none",
+    "cross_state_pairs": "not pooled",
+    "frame": "unchanged reviewed 6VRH protein frame",
+    "pair_mapping": "minimum direct RMSD over complete heavy-atom graph automorphisms within formal state",
+    "rdkit_version": "2026.03.6"
+  },
+  "native_paroxetine_contact_reference": [
+    "A:ALA169",
+    "A:ALA173",
+    "A:ALA96",
+    "A:ASP98",
+    "A:GLY338",
+    "A:GLY442",
+    "A:ILE172",
+    "A:PHE335",
+    "A:PHE341",
+    "A:SER336",
+    "A:SER438",
+    "A:THR439",
+    "A:THR497",
+    "A:TYR95",
+    "A:VAL501"
+  ],
+  "pairwise_variability": {
+    "neutral": {
+      "across_seeds_same_starting_conformer_all_modes": {
+        "count": 2400,
+        "maximum_A": 9.3907,
+        "median_A": 5.6243,
+        "minimum_A": 0.0849
+      },
+      "across_starting_conformers_all_modes": {
+        "count": 3600,
+        "maximum_A": 9.3059,
+        "median_A": 5.627700000000001,
+        "minimum_A": 0.4236
+      },
+      "top_modes_across_seeds_same_starting_conformer": {
+        "count": 6,
+        "maximum_A": 6.0825,
+        "median_A": 0.8729,
+        "minimum_A": 0.0849
+      },
+      "top_modes_across_starting_conformers": {
+        "count": 9,
+        "maximum_A": 6.2508,
+        "median_A": 6.1833,
+        "minimum_A": 0.8428
+      },
+      "within_same_run_all_modes": {
+        "count": 1140,
+        "maximum_A": 8.9071,
+        "median_A": 5.6278500000000005,
+        "minimum_A": 0.8834
+      }
+    },
+    "protonated": {
+      "across_seeds_same_starting_conformer_all_modes": {
+        "count": 2400,
+        "maximum_A": 8.9325,
+        "median_A": 5.5884,
+        "minimum_A": 0.0564
+      },
+      "across_starting_conformers_all_modes": {
+        "count": 3600,
+        "maximum_A": 8.984,
+        "median_A": 5.57605,
+        "minimum_A": 0.5123
+      },
+      "top_modes_across_seeds_same_starting_conformer": {
+        "count": 6,
+        "maximum_A": 1.1159,
+        "median_A": 0.1974,
+        "minimum_A": 0.0927
+      },
+      "top_modes_across_starting_conformers": {
+        "count": 9,
+        "maximum_A": 1.4109,
+        "median_A": 1.3107,
+        "minimum_A": 1.1642
+      },
+      "within_same_run_all_modes": {
+        "count": 1140,
+        "maximum_A": 8.6285,
+        "median_A": 5.5768,
+        "minimum_A": 1.3891
+      }
+    }
+  },
+  "pose_rows": 240,
+  "run_summaries": [
+    {
+      "conformer": "c1",
+      "ligand": "prl_neutral_c1",
+      "saved_modes": 20,
+      "seed": 5301,
+      "start_n_sign": 1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.3322,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.301
+    },
+    {
+      "conformer": "c1",
+      "ligand": "prl_neutral_c1",
+      "saved_modes": 20,
+      "seed": 5302,
+      "start_n_sign": 1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.3525,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.328
+    },
+    {
+      "conformer": "c1",
+      "ligand": "prl_neutral_c1",
+      "saved_modes": 20,
+      "seed": 5303,
+      "start_n_sign": 1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.2508,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.298
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_neutral_c2",
+      "saved_modes": 20,
+      "seed": 5301,
+      "start_n_sign": -1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ALA169;A:ALA173;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 2.7966,
+      "top_paroxetine_native_contacts_retained": 11,
+      "top_score": -8.717
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_neutral_c2",
+      "saved_modes": 20,
+      "seed": 5302,
+      "start_n_sign": -1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ALA169;A:ALA173;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 2.761,
+      "top_paroxetine_native_contacts_retained": 11,
+      "top_score": -8.729
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_neutral_c2",
+      "saved_modes": 20,
+      "seed": 5303,
+      "start_n_sign": -1,
+      "state": "neutral",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 2.9486,
+      "top_paroxetine_native_contacts_retained": 10,
+      "top_score": -7.263
+    },
+    {
+      "conformer": "c1",
+      "ligand": "prl_protonated_c1",
+      "saved_modes": 20,
+      "seed": 5301,
+      "start_n_sign": -1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.09,
+      "top_paroxetine_native_contacts_retained": 10,
+      "top_score": -7.277
+    },
+    {
+      "conformer": "c1",
+      "ligand": "prl_protonated_c1",
+      "saved_modes": 20,
+      "seed": 5302,
+      "start_n_sign": -1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY338;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.31,
+      "top_paroxetine_native_contacts_retained": 11,
+      "top_score": -7.601
+    },
+    {
+      "conformer": "c1",
+      "ligand": "prl_protonated_c1",
+      "saved_modes": 20,
+      "seed": 5303,
+      "start_n_sign": -1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:THR497;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.0704,
+      "top_paroxetine_native_contacts_retained": 10,
+      "top_score": -7.318
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_protonated_c2",
+      "saved_modes": 20,
+      "seed": 5301,
+      "start_n_sign": 1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.3266,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.388
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_protonated_c2",
+      "saved_modes": 20,
+      "seed": 5302,
+      "start_n_sign": 1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.3696,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.329
+    },
+    {
+      "conformer": "c2",
+      "ligand": "prl_protonated_c2",
+      "saved_modes": 20,
+      "seed": 5303,
+      "start_n_sign": 1,
+      "state": "protonated",
+      "top_contacts_4A": "A:ASP98;A:GLY442;A:ILE172;A:PHE335;A:PHE341;A:SER438;A:THR439;A:TYR175;A:TYR176;A:TYR95;A:VAL501",
+      "top_minimum_receptor_distance_A": 3.2306,
+      "top_paroxetine_native_contacts_retained": 9,
+      "top_score": -7.363
+    }
+  ],
+  "within_state_pair_rows": 14280
+}

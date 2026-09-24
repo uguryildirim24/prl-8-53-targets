@@ -1,0 +1,4 @@
+request_start_utc=2026-09-23T03:14:27.152Z
+request_end_utc=2026-09-23T03:14:28.406Z
+http_status=200
+url=https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL5542214.json

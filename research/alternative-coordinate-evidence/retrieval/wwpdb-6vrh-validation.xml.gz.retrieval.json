@@ -1,0 +1,69 @@
+{
+  "bytes": 45258,
+  "completed_utc": "2026-09-23T04:07:42.298Z",
+  "final_url": "https://files.rcsb.org/pub/pdb/validation_reports/vr/6vrh/6vrh_validation.xml.gz",
+  "http_status": 200,
+  "payload": "raw/wwpdb-6vrh-validation.xml.gz",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://files.rcsb.org/pub/pdb/validation_reports/vr/6vrh/6vrh_validation.xml.gz",
+  "response_headers": [
+    [
+      "Content-Type",
+      "application/gzip"
+    ],
+    [
+      "Content-Length",
+      "45258"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:07:42 GMT"
+    ],
+    [
+      "Server",
+      "AmazonS3"
+    ],
+    [
+      "Last-Modified",
+      "Sat, 18 Apr 2026 10:24:24 GMT"
+    ],
+    [
+      "ETag",
+      "\"a2b8ce669ec6cf8a0c2e58ee588b8a00\""
+    ],
+    [
+      "x-amz-server-side-encryption",
+      "AES256"
+    ],
+    [
+      "X-Cache",
+      "Miss from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 fcae443d83fc4584a0d3a9c267282030.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "BOS50-P5"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "kIsYtFxR0iPj3jeOLJzG552XakUUYjb8SOTM0ygFwhuQzzXt4qUp2Q=="
+    ]
+  ],
+  "sha256": "77eb5ce87c3c4d426f5e5baa86ff3f11fb46976ec0658ed5388f42dad6d126f7",
+  "started_utc": "2026-09-23T04:07:41.782Z"
+}

@@ -1,0 +1,28 @@
+chain,residue,author_residue_number,minimum_distance_A,protein_atom,ligand_atom,within_4.5_A
+B(symmetry mate),GLU,2255,2.731,N,O15,True
+B(symmetry mate),GLY,2187,2.854,N,O26,True
+A,LEU,1990,3.284,CD2,O26,True
+B(symmetry mate),GLY,2258,3.304,CA,C1,True
+B(symmetry mate),PHE,2185,3.343,O,C23,True
+B(symmetry mate),ARG,2183,3.401,O,C21,True
+B(symmetry mate),LEU,2254,3.419,CB,O15,True
+A,VAL,1993,3.447,CG2,N9,True
+A,ALA,1989,3.512,CB,C3,True
+B(symmetry mate),GLU,2261,3.542,CG,C5,True
+B(symmetry mate),SER,2186,3.56,CA,O26,True
+B(symmetry mate),GLU,2257,3.684,CB,O10,True
+A,THR,1985,3.742,CG2,C18,True
+A,LEU,1994,3.786,CD2,C31,True
+B(symmetry mate),VAL,2153,3.825,CG2,C22,True
+A,LYS,1992,3.855,CG,S7,True
+B(symmetry mate),GLY,2184,3.903,N,C22,True
+B(symmetry mate),ILE,2262,4.109,CD1,C3,True
+B(symmetry mate),GLY,2188,4.193,N,O26,True
+B(symmetry mate),ALA,2150,4.258,CB,C30,True
+B(symmetry mate),THR,2259,4.894,N,O15,False
+B(symmetry mate),PHE,2155,4.903,CZ,C30,False
+B(symmetry mate),VAL,2253,4.93,O,C16,False
+B(symmetry mate),GLN,2152,5.205,O,C22,False
+A,SER,1988,5.207,O,C5,False
+B(symmetry mate),PRO,2256,5.267,N,O15,False
+B(symmetry mate),ARG,2225,5.979,CB,C17,False

@@ -1,0 +1,4 @@
+request_start_utc=2026-09-23T03:15:09.651Z
+request_end_utc=2026-09-23T03:15:11.161Z
+http_status=200
+url=https://www.ebi.ac.uk/chembl/api/data/document/CHEMBL1154083.json

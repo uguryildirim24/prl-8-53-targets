@@ -1,0 +1,49 @@
+{
+  "bytes": 170287,
+  "completed_utc": "2026-09-23T04:07:47.215Z",
+  "final_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/8EF5/1",
+  "http_status": 200,
+  "payload": "raw/rcsb-polymer-8EF5-entity-1.json",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/8EF5/1",
+  "response_headers": [
+    [
+      "vary",
+      "origin,access-control-request-method,access-control-request-headers,accept-encoding"
+    ],
+    [
+      "x-backend-hostname",
+      "production-rcsb-yosemite-b-5fd55c8984-8j4n9"
+    ],
+    [
+      "content-type",
+      "application/json"
+    ],
+    [
+      "transfer-encoding",
+      "chunked"
+    ],
+    [
+      "date",
+      "Wed, 23 Sep 2026 04:07:47 GMT"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\";ma=60;"
+    ],
+    [
+      "connection",
+      "close"
+    ]
+  ],
+  "sha256": "e97c98806aa7bc9fa2d92c9550e9a14cdb59d62c727f6a80b7fdc5fd16231c86",
+  "started_utc": "2026-09-23T04:07:47.046Z"
+}

@@ -1,0 +1,44 @@
+pdb	ligand_label_asym	component_group	entity	description	component_label_asym	component_auth_seq	minimum_ligand_distance_A	ligand_atom_at_min	ligand_element_at_min	component_label_asym_at_min	component_auth_asym_at_min	component_comp_at_min	component_label_seq_at_min	component_auth_seq_at_min	component_atom_at_min	component_element_at_min	component_occupancy_at_min	minimum_distance_to_observed_receptor_contact_atoms_A	receptor_pocket_atom_at_min	accessory_atom_at_min
+6VRH	E	polymer_chain	1	Sodium-dependent serotonin transporter	A		2.894	NAN	N	A	A	TYR	95	95	O	O	1.00			
+6VRH	E	nonpolymer_residue	7	DODECYL-BETA-D-MALTOSIDE	H	705	8.731	FAA	F	H	A	LMT		705	O2'	O	1.00			
+6VRH	E	nonpolymer_residue	6	CHLORIDE ION	F	703	9.103	NAN	N	F	A	CL		703	CL	CL	1.00			
+6VRH	E	polymer_chain	3	8B6 antibody, heavy chain	C		29.792	CAC	C	C	B	ASN	55	74	ND2	N	1.00	27.142	A:ASP:98:OD2	C:ARG:102:NH2
+6VRH	E	polymer_chain	2	8B6 antibody, light chain	B		30.849	CAC	C	B	C	ILE	94	114	CD1	C	1.00	28.444	A:ASP:98:OD1	B:TYR:92:OH
+6VRH	E	nonpolymer_residue	4	2-acetamido-2-deoxy-beta-D-glucopyranose	D	701	34.755	CAC	C	D	A	NAG		701	O6	O	1.00			
+6VRH	E	nonpolymer_residue	4	2-acetamido-2-deoxy-beta-D-glucopyranose	G	704	48.394	CAK	C	G	A	NAG		704	C1	C	1.00			
+8EF5	H	polymer_chain	1	Mu-type opioid receptor	A		3.235	N09	N	A	R	ASP	148	149	OD2	O	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	J	503	11.865	C04	C	J	R	CLR		503	C18	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	K	504	12.449	O01	O	K	R	CLR		504	C19	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	O	502	14.834	C04	C	O	M	CLR		502	C15	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	I	502	15.370	C22	C	I	R	CLR		502	C27	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	L	505	15.977	C04	C	L	R	CLR		505	C16	C	1.00			
+8EF5	H	polymer_chain	1	Mu-type opioid receptor	F		17.034	C04	C	F	M	MET	244	245	CE	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	R	505	17.573	O01	O	R	M	CLR		505	C27	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	S	506	18.933	C03	C	S	M	CLR		506	C26	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	M	506	19.193	C04	C	M	R	CLR		506	C26	C	1.00			
+8EF5	H	polymer_chain	2	Guanine nucleotide-binding protein G(i) subunit alpha-1	B		24.283	C23	C	B	A	LEU	353	353	CD2	C	1.00	21.345	A:TRP:294:CH2	B:LEU:353:CD2
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	P	503	31.332	O01	O	P	M	CLR		503	C18	C	1.00			
+8EF5	H	polymer_chain	2	Guanine nucleotide-binding protein G(i) subunit alpha-1	G		31.836	C04	C	G	F	ASN	347	347	ND2	N	1.00	29.390	A:VAL:301:CG2	G:THR:340:CG2
+8EF5	H	nonpolymer_residue	6	N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide	N	501	32.962	C04	C	N	M	7V7		501	C04	C	1.00			
+8EF5	H	nonpolymer_residue	7	CHOLESTEROL	Q	504	37.853	C04	C	Q	M	CLR		504	C26	C	1.00			
+8EF5	H	polymer_chain	3	Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1	C		38.593	C23	C	C	B	ASP	325	312	OD2	O	1.00	36.431	A:TYR:327:CD1	C:ASP:325:OD2
+8EF5	H	polymer_chain	4	Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2	D		43.712	C22	C	D	C	LYS	64	64	O	O	1.00	41.622	A:ASP:148:OD1	D:LYS:64:O
+8EF5	H	polymer_chain	5	scFv16	E		47.467	C22	C	E	E	GLY	56	56	O	O	1.00	45.823	A:MET:152:SD	E:GLY:56:O
+8EF5	N	polymer_chain	1	Mu-type opioid receptor	F		2.981	N09	N	F	M	ASP	148	149	OD2	O	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	R	505	11.978	O01	O	R	M	CLR		505	C19	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	Q	504	12.114	C04	C	Q	M	CLR		504	C18	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	M	506	14.315	C04	C	M	R	CLR		506	C15	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	P	503	15.369	C22	C	P	M	CLR		503	C27	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	S	506	15.457	C04	C	S	M	CLR		506	C16	C	1.00			
+8EF5	N	polymer_chain	1	Mu-type opioid receptor	A		16.731	C04	C	A	R	MET	244	245	CE	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	K	504	16.988	O01	O	K	R	CLR		504	C27	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	O	502	18.311	C04	C	O	M	CLR		502	C26	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	L	505	19.017	C03	C	L	R	CLR		505	C26	C	1.00			
+8EF5	N	polymer_chain	2	Guanine nucleotide-binding protein G(i) subunit alpha-1	G		24.294	C23	C	G	F	LEU	353	353	CD2	C	1.00	21.801	F:GLY:326:C	G:LEU:353:CD2
+8EF5	N	polymer_chain	2	Guanine nucleotide-binding protein G(i) subunit alpha-1	B		24.752	C15	C	B	A	ASP	193	193	OD2	O	1.00	22.143	F:TYR:149:OH	B:ASP:193:OD2
+8EF5	N	polymer_chain	5	scFv16	E		25.753	C16	C	E	E	LYS	76	76	NZ	N	1.00	22.610	F:CYS:218:SG	E:LYS:76:NZ
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	I	502	31.183	O01	O	I	R	CLR		502	C18	C	1.00			
+8EF5	N	nonpolymer_residue	6	N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide	H	501	32.962	C04	C	H	R	7V7		501	C04	C	1.00			
+8EF5	N	nonpolymer_residue	7	CHOLESTEROL	J	503	36.563	C04	C	J	R	CLR		503	C26	C	1.00			
+8EF5	N	polymer_chain	3	Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1	C		37.721	C15	C	C	B	LEU	68	55	CD2	C	1.00	34.719	F:TYR:149:OH	C:LEU:68:CD2
+8EF5	N	polymer_chain	4	Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2	D		48.380	C16	C	D	C	LYS	64	64	NZ	N	1.00	45.619	F:ILE:145:CG1	D:LYS:64:NZ

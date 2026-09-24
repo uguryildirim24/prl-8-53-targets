@@ -1,0 +1,65 @@
+{
+  "bytes": 10082,
+  "completed_utc": "2026-09-23T04:07:43.900Z",
+  "final_url": "https://files.rcsb.org/ligands/download/8PR.cif",
+  "http_status": 200,
+  "payload": "raw/ccd-8PR.cif",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://files.rcsb.org/ligands/download/8PR.cif",
+  "response_headers": [
+    [
+      "Content-Type",
+      "chemical/x-cif"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Disposition",
+      "attachment;filename=8PR.cif"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:07:43 GMT"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "X-Cache",
+      "Miss from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 39d62a2fe90c630ae738bb78d0af72b2.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "BOS50-P5"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "qxPtSPDPjs4szooFj9Gocer0pTRHudd70KuHLF8buMUVBDXiqsN5wQ=="
+    ],
+    [
+      "Vary",
+      "Origin"
+    ]
+  ],
+  "sha256": "e0c0df63947282ab7ef9f4dc48fc6637d0c8ce32157cb01835f4ece29d64e8c4",
+  "started_utc": "2026-09-23T04:07:43.710Z"
+}

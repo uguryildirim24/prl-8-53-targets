@@ -1,0 +1,89 @@
+{
+  "bytes": 107395,
+  "completed_utc": "2026-09-23T04:07:44.870Z",
+  "final_url": "https://rest.uniprot.org/uniprotkb/P31645.json",
+  "http_status": 200,
+  "payload": "raw/uniprot-P31645.json",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://rest.uniprot.org/uniprotkb/P31645.json",
+  "response_headers": [
+    [
+      "Vary",
+      "accept,accept-encoding,x-uniprot-release,x-api-deployment-date, User-Agent"
+    ],
+    [
+      "Cache-Control",
+      "public, max-age=43200"
+    ],
+    [
+      "x-cache",
+      "hit cached"
+    ],
+    [
+      "Content-Type",
+      "application/json"
+    ],
+    [
+      "Access-Control-Allow-Credentials",
+      "true"
+    ],
+    [
+      "Access-Control-Expose-Headers",
+      "Link, X-Total-Results, X-UniProt-Release, X-UniProt-Release-Date, X-API-Deployment-Date"
+    ],
+    [
+      "X-API-Deployment-Date",
+      "02-September-2026"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=31536000; includeSubDomains; preload"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:07:44 GMT"
+    ],
+    [
+      "Access-Control-Max-Age",
+      "1728000"
+    ],
+    [
+      "X-UniProt-Release",
+      "2026_03"
+    ],
+    [
+      "Access-Control-Allow-Origin",
+      "*"
+    ],
+    [
+      "Accept-Ranges",
+      "bytes"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Access-Control-Allow-Methods",
+      "GET, PUT, POST, DELETE, PATCH, OPTIONS"
+    ],
+    [
+      "Access-Control-Allow-Headers",
+      "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization"
+    ],
+    [
+      "Content-Length",
+      "107395"
+    ],
+    [
+      "X-UniProt-Release-Date",
+      "02-September-2026"
+    ]
+  ],
+  "sha256": "230d427a5cca208acce799f60289221010296e39b801f5b2ba08db0de1e0ca47",
+  "started_utc": "2026-09-23T04:07:44.081Z"
+}

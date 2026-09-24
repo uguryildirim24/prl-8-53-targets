@@ -1,0 +1,69 @@
+{
+  "bytes": 1258927,
+  "completed_utc": "2026-09-23T04:07:42.575Z",
+  "final_url": "https://files.rcsb.org/download/8EF5.cif",
+  "http_status": 200,
+  "payload": "raw/8EF5.cif",
+  "redirects": [],
+  "request_headers": {
+    "Accept-Encoding": "identity",
+    "User-Agent": "prl-8-53-coordinate-audit/1.0 (bounded academic reproducibility fetch)"
+  },
+  "requested_url": "https://files.rcsb.org/download/8EF5.cif",
+  "response_headers": [
+    [
+      "Content-Type",
+      "chemical/x-cif"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Content-Disposition",
+      "attachment;filename=8EF5.cif"
+    ],
+    [
+      "strict-transport-security",
+      "max-age=16000000; includeSubDomains; preload;"
+    ],
+    [
+      "Date",
+      "Wed, 23 Sep 2026 04:05:04 GMT"
+    ],
+    [
+      "Vary",
+      "accept-encoding"
+    ],
+    [
+      "X-Cache",
+      "Hit from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 7980cb1eaccfb4e04002d3a9cb21d6f0.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "BOS50-P5"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "oZqjHIrXW8itua2PnRYidTWKXImyG_Vs7_RDkaFhePjeTTAqAgX0aw=="
+    ],
+    [
+      "Age",
+      "158"
+    ],
+    [
+      "Vary",
+      "Origin"
+    ]
+  ],
+  "sha256": "881deaa1122d38e33b1378fa7cb246d88824d11da9207eed0d48b404b710161c",
+  "started_utc": "2026-09-23T04:07:42.379Z"
+}

@@ -1,0 +1,28 @@
+pdb	entity	kind	description	species	taxonomy_ids	label_asym	auth_asym_ids_entity_record	observed_auth_asym	deposited_sequence_length	modeled_residue_count	modeled_label_seq_ranges	modeled_auth_seq_ranges	modeled_target_canonical_ranges	rcsb_mutation_count	reference_alignment	independent_target_sequence_substitutions
+6VRH	1	polymer	Sodium-dependent serotonin transporter	Homo sapiens	9606	A	A	A	630	541	77-617	77-617	77-617	0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":630,""ref_beg_seq_id"":1}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P31645"",""reference_database_name"":""UniProt""}]"	
+6VRH	2	polymer	8B6 antibody, light chain	Mus musculus	10090	B	C	C	214	106	1-106	21-126		0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":214,""ref_beg_seq_id"":21}],""provenance_source"":""SIFTS"",""reference_database_accession"":""A0A0U5BC76"",""reference_database_name"":""UniProt""}]"	
+6VRH	3	polymer	8B6 antibody, heavy chain	Mus musculus	10090	C	B	B	221	117	1-117	20-136		0		
+6VRH	4	nonpolymer	2-acetamido-2-deoxy-beta-D-glucopyranose			D	A			0						
+6VRH	4	nonpolymer	2-acetamido-2-deoxy-beta-D-glucopyranose			G	A			0						
+6VRH	5	nonpolymer	Paroxetine			E	A			0						
+6VRH	6	nonpolymer	CHLORIDE ION			F	A			0						
+6VRH	7	nonpolymer	DODECYL-BETA-D-MALTOSIDE			H	A			0						
+8EF5	1	polymer	Mu-type opioid receptor	Homo sapiens	9606	A	M,R	R	367	287	65-351	66-352	66-352	0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":367,""ref_beg_seq_id"":2}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P35372"",""reference_database_name"":""UniProt""}]"	
+8EF5	1	polymer	Mu-type opioid receptor	Homo sapiens	9606	F	M,R	M	367	288	65-352	66-353	66-353	0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":367,""ref_beg_seq_id"":2}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P35372"",""reference_database_name"":""UniProt""}]"	
+8EF5	2	polymer	Guanine nucleotide-binding protein G(i) subunit alpha-1	Homo sapiens	9606	B	A,F	A	354	225	4-55,182-354	4-55,182-354		0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":354,""ref_beg_seq_id"":1}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P63096"",""reference_database_name"":""UniProt""}]"	
+8EF5	2	polymer	Guanine nucleotide-binding protein G(i) subunit alpha-1	Homo sapiens	9606	G	A,F	F	354	18	337-354	337-354		0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":354,""ref_beg_seq_id"":1}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P63096"",""reference_database_name"":""UniProt""}]"	
+8EF5	3	polymer	Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1	Rattus norvegicus	10116	C	B	B	353	336	18-353	5-340		0	"[{""aligned_regions"":[{""entity_beg_seq_id"":15,""length"":339,""ref_beg_seq_id"":2}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P54311"",""reference_database_name"":""UniProt""}]"	
+8EF5	4	polymer	Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2	Bos taurus	9913	D	C	C	68	56	9-64	9-64		0	"[{""aligned_regions"":[{""entity_beg_seq_id"":1,""length"":68,""ref_beg_seq_id"":1}],""provenance_source"":""SIFTS"",""reference_database_accession"":""P63212"",""reference_database_name"":""UniProt""}]"	
+8EF5	5	polymer	scFv16	synthetic construct	32630	E	E	E	248	231	2-121,138-248	2-121,138-248		0		
+8EF5	6	nonpolymer	N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide			H	M,R			0						
+8EF5	6	nonpolymer	N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide			N	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			I	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			J	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			K	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			L	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			M	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			O	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			P	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			Q	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			R	M,R			0						
+8EF5	7	nonpolymer	CHOLESTEROL			S	M,R			0						

@@ -1,0 +1,31 @@
+[project]
+name = "prl-8-53-targets"
+version = "1.0.0"
+description = "Evidence audit and limited docking checks of molecular-target hypotheses for PRL-8-53"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Hasan Ugur (Rolf) Yildirim" }]
+
+# Only what the figure scripts in scripts/ need. The docking work itself was
+# run with the versions recorded in each experiment's environment.txt:
+#
+#   AutoDock Vina 1.2.7   (sha256 823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1,
+#                          macOS arm64 release binary; not vendored here)
+#   RDKit   2026.03.6     (ligand preparation, conformers, graph-automorphism RMSD)
+#   Meeko   0.8.0         (receptor/ligand PDBQT preparation, Gasteiger charges)
+#   gemmi   0.7.5         (mmCIF/assembly handling, coordinate inspection)
+#   numpy   2.5.3
+#   scipy   1.18.1
+#
+# Reproducing the docking runs needs that full stack plus the Vina binary.
+# Reproducing the figures needs only the dependency below.
+dependencies = [
+    "matplotlib>=3.9",
+]
+
+[project.urls]
+Repository = "https://github.com/uguryildirim24/prl-8-53-targets"
+
+[tool.uv]
+package = false

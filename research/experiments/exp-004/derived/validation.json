@@ -1,0 +1,228 @@
+{
+  "all_outputs_complete": true,
+  "analysis_checks": true,
+  "data_and_resource_integrity_passed": true,
+  "effective_nice_exactly_19": false,
+  "frozen_inputs_unchanged": true,
+  "frozen_presearch_inputs": [
+    {
+      "actual": "e91dffe6312cf55d2d2dfdce696b5053905eb9980620b1c187f9823cf95740e8",
+      "expected": "e91dffe6312cf55d2d2dfdce696b5053905eb9980620b1c187f9823cf95740e8",
+      "ok": true,
+      "path": "protocol-prerun.md"
+    },
+    {
+      "actual": "eef46d7f13835f44fee40affbf8ccd3a7185ce7991949e0135c3723684c011a3",
+      "expected": "eef46d7f13835f44fee40affbf8ccd3a7185ce7991949e0135c3723684c011a3",
+      "ok": true,
+      "path": "environment.txt"
+    },
+    {
+      "actual": "ab339c1fa8dd626d91652353e6e1fd5819de529c5599ab86b638e15d341de6d8",
+      "expected": "ab339c1fa8dd626d91652353e6e1fd5819de529c5599ab86b638e15d341de6d8",
+      "ok": true,
+      "path": "inputs/source_manifest.json"
+    },
+    {
+      "actual": "399414a5602cabd8877fecdf964c9be2cd8ddd08e453c3f1c7e0130dc0591f16",
+      "expected": "399414a5602cabd8877fecdf964c9be2cd8ddd08e453c3f1c7e0130dc0591f16",
+      "ok": true,
+      "path": "derived/identity_graph_and_conformers.json"
+    },
+    {
+      "actual": "9cb1052bcd621bd769f99e3b8f19b50d4cc36270d20c179a273709338243188b",
+      "expected": "9cb1052bcd621bd769f99e3b8f19b50d4cc36270d20c179a273709338243188b",
+      "ok": true,
+      "path": "derived/presearch_validation.json"
+    },
+    {
+      "actual": "c25f93de3cb8bb14e289bf75829f942f2b420e004db86e0d8f6a6a763e4a1ef7",
+      "expected": "c25f93de3cb8bb14e289bf75829f942f2b420e004db86e0d8f6a6a763e4a1ef7",
+      "ok": true,
+      "path": "derived/prl_neutral_c1.sdf"
+    },
+    {
+      "actual": "808a48393792d2afeb1f7bf0ab51dcd317fc074dcb37f690987840ad92b5124c",
+      "expected": "808a48393792d2afeb1f7bf0ab51dcd317fc074dcb37f690987840ad92b5124c",
+      "ok": true,
+      "path": "derived/prl_neutral_c2.sdf"
+    },
+    {
+      "actual": "82735a89fdb9763d4abb15fd860c73c1a20afd54846c00bda7653c1e3af16620",
+      "expected": "82735a89fdb9763d4abb15fd860c73c1a20afd54846c00bda7653c1e3af16620",
+      "ok": true,
+      "path": "derived/prl_protonated_c1.sdf"
+    },
+    {
+      "actual": "d94ca5cadda9f99a75fa83ca36905519c16873c67692629840c9cba1e673020f",
+      "expected": "d94ca5cadda9f99a75fa83ca36905519c16873c67692629840c9cba1e673020f",
+      "ok": true,
+      "path": "derived/prl_protonated_c2.sdf"
+    },
+    {
+      "actual": "6929e857d443ecb9ce10bc3d8cc141fb15c18675c2443d01c90c8be28d166e4d",
+      "expected": "6929e857d443ecb9ce10bc3d8cc141fb15c18675c2443d01c90c8be28d166e4d",
+      "ok": true,
+      "path": "derived/pdbqt/prl_neutral_c1.pdbqt"
+    },
+    {
+      "actual": "5d2deaba66143e6a5e2d4117903556d507cc43056056bd56cf9bd74836eabf96",
+      "expected": "5d2deaba66143e6a5e2d4117903556d507cc43056056bd56cf9bd74836eabf96",
+      "ok": true,
+      "path": "derived/pdbqt/prl_neutral_c2.pdbqt"
+    },
+    {
+      "actual": "607fdae0907e772dd826b29c05875a0f68d726c9b8eaac001d6b6aa1db3e8773",
+      "expected": "607fdae0907e772dd826b29c05875a0f68d726c9b8eaac001d6b6aa1db3e8773",
+      "ok": true,
+      "path": "derived/pdbqt/prl_protonated_c1.pdbqt"
+    },
+    {
+      "actual": "47e88f79cc94e8489c2316e4f18cb887a7f1cfc9e211fb992769db0e9321d49f",
+      "expected": "47e88f79cc94e8489c2316e4f18cb887a7f1cfc9e211fb992769db0e9321d49f",
+      "ok": true,
+      "path": "derived/pdbqt/prl_protonated_c2.pdbqt"
+    },
+    {
+      "actual": "e6c206180ecd2bdf5b8227d275996453fe6f04c38ac37609fe855f03174f48d0",
+      "expected": "e6c206180ecd2bdf5b8227d275996453fe6f04c38ac37609fe855f03174f48d0",
+      "ok": true,
+      "path": "tables/presearch_ligand_checks.csv"
+    }
+  ],
+  "limits_note": "Vina cpu=2 and sampled per-child-tree stops were configured and observed; shell memory was unlimited and no hard/aggregate enforcement is claimed.",
+  "nice_deviation": "The outer sequential driver was also invoked with nice -n 19, so the wrapper's nested nice -n 19 saturated at effective nice 20. This is lower scheduling priority than specified, not extra resource use; no run was retried.",
+  "observed_process_tree_nice_values": [
+    20
+  ],
+  "output_checks": [
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5301
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5302
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5303
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5301
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5302
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_neutral_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5303
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5301
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5302
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c1",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5303
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5301
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5302
+    },
+    {
+      "all_sdf_read": true,
+      "ligand": "prl_protonated_c2",
+      "pdbqt_models": 20,
+      "raw_scores": 20,
+      "sdf_molecules": 20,
+      "seed": 5303
+    }
+  ],
+  "pose_rows": 240,
+  "protocol_deviations": [
+    "effective child nice was 20 rather than 19 because nice was nested"
+  ],
+  "raw_scores_match_table": true,
+  "reused_exp003_inputs": [
+    {
+      "actual": "01ec06e6bfb7708c389bcfc884c929547114b4a9318f8a1f6861c43ab793a5cc",
+      "expected": "01ec06e6bfb7708c389bcfc884c929547114b4a9318f8a1f6861c43ab793a5cc",
+      "ok": true,
+      "path": "research/experiments/exp-003/derived/receptor_6vrh_primary.pdbqt"
+    },
+    {
+      "actual": "de88b8085a444a92a9453d5b57908361c4c858db2834cdce3c7a564d366bf866",
+      "expected": "de88b8085a444a92a9453d5b57908361c4c858db2834cdce3c7a564d366bf866",
+      "ok": true,
+      "path": "research/experiments/exp-003/derived/receptor_6vrh_primary_prepared.pdb"
+    },
+    {
+      "actual": "51039da260ded8df703a54880e09dd2707174408fc6ce29cbaffe6a9e01a53c7",
+      "expected": "51039da260ded8df703a54880e09dd2707174408fc6ce29cbaffe6a9e01a53c7",
+      "ok": true,
+      "path": "research/experiments/exp-003/derived/vina_box.txt"
+    }
+  ],
+  "reused_inputs_unchanged": true,
+  "run_matrix_exact": true,
+  "runs_strictly_serial_by_recorded_intervals": true,
+  "settings_exact": true,
+  "successful_unstopped_runs": true,
+  "unexpected_pose_files": [],
+  "within_state_pair_rows": 14280
+}

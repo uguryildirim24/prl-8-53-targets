@@ -1,0 +1,9 @@
+pdb	id	type	partner1	partner2	reported_distance_A	role
+6VRH	disulf1	disulf	A:CYS:200:SG	A:CYS:209:SG	2.030	
+6VRH	disulf2	disulf	B:CYS:23:SG	B:CYS:88:SG	2.026	
+6VRH	disulf3	disulf	C:CYS:22:SG	C:CYS:96:SG	2.030	
+6VRH	covale1	covale	A:ASN:208:ND2	D:NAG:.:C1	1.440	N-Glycosylation
+6VRH	covale2	covale	A:ASN:217:ND2	G:NAG:.:C1	1.441	N-Glycosylation
+8EF5	disulf1	disulf	A:CYS:141:SG	A:CYS:218:SG	2.030	
+8EF5	disulf2	disulf	E:CYS:160:SG	E:CYS:230:SG	2.036	
+8EF5	disulf3	disulf	F:CYS:141:SG	F:CYS:218:SG	2.030	

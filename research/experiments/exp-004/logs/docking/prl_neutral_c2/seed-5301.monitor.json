@@ -1,0 +1,452 @@
+{
+  "command": [
+    "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+    "--receptor",
+    "<repo>/research/experiments/exp-003/derived/receptor_6vrh_primary.pdbqt",
+    "--ligand",
+    "<repo>/research/experiments/exp-004/derived/pdbqt/prl_neutral_c2.pdbqt",
+    "--center_x",
+    "135.153",
+    "--center_y",
+    "124.0665",
+    "--center_z",
+    "121.356",
+    "--size_x",
+    "16.752",
+    "--size_y",
+    "19.255",
+    "--size_z",
+    "21.052",
+    "--cpu",
+    "2",
+    "--seed",
+    "5301",
+    "--exhaustiveness",
+    "8",
+    "--num_modes",
+    "20",
+    "--energy_range",
+    "5",
+    "--out",
+    "<repo>/research/experiments/exp-004/poses/prl_neutral_c2/seed-5301.pdbqt"
+  ],
+  "completed_utc": "2026-09-23T06:03:51.408Z",
+  "conformer": "c2",
+  "elapsed_seconds": 4.08,
+  "environment_controls": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "ligand": "prl_neutral_c2",
+  "limits_note": "RSS is sampled for this child tree only; not a hard kernel limit or aggregate-project measurement.",
+  "observed_process_tree_nice_values": [
+    20
+  ],
+  "output": "poses/prl_neutral_c2/seed-5301.pdbqt",
+  "poll_seconds": 0.1,
+  "returncode": 0,
+  "rss_stop_bytes": 3221225472,
+  "sampled_peak_process_tree_rss_bytes": 445366272,
+  "samples": [
+    {
+      "aggregate_tree_rss_bytes": 3391488,
+      "elapsed_seconds": 0.001,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 3312
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 434552832,
+      "elapsed_seconds": 0.133,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 424368
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445136896,
+      "elapsed_seconds": 0.268,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434704
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445136896,
+      "elapsed_seconds": 0.404,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434704
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445235200,
+      "elapsed_seconds": 0.546,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434800
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445235200,
+      "elapsed_seconds": 0.675,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434800
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445235200,
+      "elapsed_seconds": 0.807,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434800
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445235200,
+      "elapsed_seconds": 0.945,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434800
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445284352,
+      "elapsed_seconds": 1.077,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434848
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.207,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.335,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.466,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.604,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.743,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 1.885,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445300736,
+      "elapsed_seconds": 2.022,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434864
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.16,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.295,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.429,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.572,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.709,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.842,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445333504,
+      "elapsed_seconds": 2.984,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434896
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.118,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.258,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.395,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.532,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.67,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.809,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    },
+    {
+      "aggregate_tree_rss_bytes": 445366272,
+      "elapsed_seconds": 3.941,
+      "processes": [
+        {
+          "command": "<repo>/research/experiments/exp-002/.local-tools/vina_1.2.7_mac_aarch64",
+          "nice": 20,
+          "pid": 63557,
+          "ppid": 63556,
+          "rss_kib": 434928
+        }
+      ]
+    }
+  ],
+  "seed": 5301,
+  "started_utc": "2026-09-23T06:03:47.328Z",
+  "state": "neutral",
+  "stderr": "logs/docking/prl_neutral_c2/seed-5301.stderr.txt",
+  "stdout": "logs/docking/prl_neutral_c2/seed-5301.stdout.txt",
+  "stop_reason": null,
+  "time_stop_seconds": 1200
+}

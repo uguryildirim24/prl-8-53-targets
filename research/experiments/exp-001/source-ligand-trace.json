@@ -1,0 +1,86 @@
+{
+  "candidate_target": {
+    "name": "Acetyl-CoA carboxylase 2",
+    "gene": "ACACB",
+    "uniprot_id": "O00763",
+    "chembl_target_id": "CHEMBL4829",
+    "species": "Homo sapiens",
+    "swisstarget_rank": 1,
+    "swisstarget_probability_label": {
+      "value": 0.7100689239133643,
+      "condition": "query molecule assumed as bioactive",
+      "interpretation": "service target-ranking output; not an absolute binding probability"
+    }
+  },
+  "site_exposed_known_actives": [
+    {
+      "role": "nearest exposed FP2 (2D) active; also fourth exposed 3D active",
+      "chembl_molecule_id": "CHEMBL3928386",
+      "inchi_key": "QEUWJQXZXZICOI-UHFFFAOYSA-N",
+      "canonical_smiles": "COC(=O)c1ccc2c(c1)CCN(Cc1ccc(C(C)NC(C)=O)cc1)C2",
+      "swisstarget_fp2_similarity": 0.764706,
+      "swisstarget_3d_similarity": 0.787,
+      "activity": {
+        "activity_id": 17768979,
+        "standard_type": "IC50",
+        "standard_relation": "=",
+        "standard_value": 524,
+        "standard_units": "nM",
+        "pchembl_value": 6.28,
+        "assay_type": "B",
+        "assay_type_description": "Binding",
+        "assay_chembl_id": "CHEMBL3888444",
+        "assay_organism_label": "Homo sapiens",
+        "assay_tax_id": null,
+        "target_assignment": "Homologous single protein target assigned",
+        "confidence_score": 8,
+        "bao_format": "BAO_0000357",
+        "assay_components_named": [
+          "hACC2",
+          "pyruvate kinase",
+          "lactate dehydrogenase"
+        ],
+        "readout": "decrease of optical density at 340 nm over 15 minutes",
+        "captured_controls": [
+          "vehicle instead of compound",
+          "without acetyl-CoA for non-specific NADH degradation"
+        ],
+        "interpretation": "indirect coupled-enzyme inhibition readout; no captured coupling-enzyme or compound-interference counterscreen; not direct binding and not a conclusive verified-human-construct assignment",
+        "document_chembl_id": "CHEMBL3886715",
+        "document_type": "PATENT",
+        "patent_id": "US-9340510-B2",
+        "document_title": "Tetrahydroisoquinoline derivatives, pharmaceutical compositions and uses thereof"
+      }
+    },
+    {
+      "role": "nearest exposed 3D active",
+      "chembl_molecule_id": "CHEMBL1910396",
+      "inchi_key": "UMEWLRYFBAISSB-UHFFFAOYSA-N",
+      "canonical_smiles": "CC1(C)CC2(CCCN(C3CCN(C(=O)c4c(N)sc5ccccc45)CC3)C2)C(=O)O1",
+      "swisstarget_3d_similarity": 0.83,
+      "activity": {
+        "activity_id": 7846231,
+        "standard_type": "IC50",
+        "standard_relation": "=",
+        "standard_value": 750,
+        "standard_units": "nM",
+        "pchembl_value": 6.12,
+        "assay_type": "B",
+        "assay_type_description": "Binding",
+        "assay_chembl_id": "CHEMBL1912973",
+        "assay_organism_label": "Homo sapiens",
+        "assay_tax_id": 9606,
+        "target_assignment": "Direct protein target assigned",
+        "confidence_score": 9,
+        "bao_format": "BAO_0000357",
+        "assay_description": "Inhibition of human ACC2",
+        "interpretation": "inhibition IC50 with no captured protocol or counterscreen details; not a direct binding measurement",
+        "document_chembl_id": "CHEMBL1909501",
+        "document_type": "PUBLICATION",
+        "doi": "10.1016/j.bmcl.2011.08.117",
+        "pubmed_id": 21944854,
+        "document_title": "Design, synthesis, and structure-activity relationships of spirolactones bearing 2-ureidobenzothiophene as acetyl-CoA carboxylases inhibitors."
+      }
+    }
+  ]
+}

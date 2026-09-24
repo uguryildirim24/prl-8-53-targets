@@ -1,0 +1,20 @@
+# gitleaks configuration for this repository.
+#
+# Extends the stock gitleaks ruleset and allowlists one known false positive:
+# the generic-api-key rule matches the ChEMBL compound identifier CHEMBL208943
+# where it appears as `resource_accession_code` inside a public RCSB PDB
+# chemical-component cross-reference payload. That is a public database
+# accession, not a credential.
+#
+# No credential, token, key, or account identifier is stored anywhere in this
+# repository. Every external record here came from an unauthenticated public
+# API.
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+[rules.allowlist]
+regexTarget = "match"
+regexes = ['''resource_accession_code"\s*:\s*"CHEMBL\d+"''']

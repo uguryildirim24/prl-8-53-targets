@@ -1,0 +1,672 @@
+{
+  "conformers": [
+    {
+      "conformer_seed": 5101,
+      "embed_status": 0,
+      "formal_charge": 0,
+      "formula": "C18H21NO2",
+      "heavy_atoms": 21,
+      "id": "prl_neutral_c1",
+      "mmff_optimize_status": 0,
+      "nitrogen_geometry": {
+        "carbon_nitrogen_bond_lengths_A": {
+          "benzyl": 1.4759672170515343,
+          "methyl": 1.4667239483308292,
+          "phenethyl": 1.4771131445142862
+        },
+        "carbon_nitrogen_carbon_angles_deg": [
+          110.72272290044278,
+          111.3650859467455,
+          110.09874324097795
+        ],
+        "ordered_substituents": [
+          "methyl",
+          "benzyl",
+          "phenethyl"
+        ],
+        "sign": 1,
+        "signed_heavy_neighbor_determinant_A3": 2.3397687826875364,
+        "sum_CNC_angles_deg": 332.1865520881662
+      },
+      "state": "neutral"
+    },
+    {
+      "conformer_seed": 5104,
+      "embed_status": 0,
+      "formal_charge": 0,
+      "formula": "C18H21NO2",
+      "heavy_atoms": 21,
+      "id": "prl_neutral_c2",
+      "mmff_optimize_status": 0,
+      "nitrogen_geometry": {
+        "carbon_nitrogen_bond_lengths_A": {
+          "benzyl": 1.4726007863314152,
+          "methyl": 1.4608684245115897,
+          "phenethyl": 1.4753585387778048
+        },
+        "carbon_nitrogen_carbon_angles_deg": [
+          110.5231545315401,
+          112.08715560192626,
+          114.07494011892327
+        ],
+        "ordered_substituents": [
+          "methyl",
+          "benzyl",
+          "phenethyl"
+        ],
+        "sign": -1,
+        "signed_heavy_neighbor_determinant_A3": -2.1567165510520607,
+        "sum_CNC_angles_deg": 336.6852502523896
+      },
+      "state": "neutral"
+    },
+    {
+      "conformer_seed": 5201,
+      "embed_status": 0,
+      "formal_charge": 1,
+      "formula": "C18H22NO2+",
+      "heavy_atoms": 21,
+      "id": "prl_protonated_c1",
+      "mmff_optimize_status": 0,
+      "nitrogen_geometry": {
+        "carbon_nitrogen_bond_lengths_A": {
+          "benzyl": 1.5163349534670614,
+          "methyl": 1.5041361041589747,
+          "phenethyl": 1.518895034220422
+        },
+        "carbon_nitrogen_carbon_angles_deg": [
+          112.25274453815265,
+          113.09551020474758,
+          111.7939633258081
+        ],
+        "nitrogen_hydrogen_bond_length_A": 1.02915101062186,
+        "ordered_substituents": [
+          "methyl",
+          "benzyl",
+          "phenethyl"
+        ],
+        "sign": -1,
+        "signed_heavy_neighbor_determinant_A3": -2.3356785504323,
+        "signed_tetrahedral_determinant_H_origin_A3": -7.968733247004941,
+        "sum_CNC_angles_deg": 337.1422180687083
+      },
+      "state": "protonated"
+    },
+    {
+      "conformer_seed": 5202,
+      "embed_status": 0,
+      "formal_charge": 1,
+      "formula": "C18H22NO2+",
+      "heavy_atoms": 21,
+      "id": "prl_protonated_c2",
+      "mmff_optimize_status": 0,
+      "nitrogen_geometry": {
+        "carbon_nitrogen_bond_lengths_A": {
+          "benzyl": 1.51665680339927,
+          "methyl": 1.5019107197809594,
+          "phenethyl": 1.5157347930233076
+        },
+        "carbon_nitrogen_carbon_angles_deg": [
+          113.04434080825392,
+          114.22511993154563,
+          114.61160445873955
+        ],
+        "nitrogen_hydrogen_bond_length_A": 1.027930681401398,
+        "ordered_substituents": [
+          "methyl",
+          "benzyl",
+          "phenethyl"
+        ],
+        "sign": 1,
+        "signed_heavy_neighbor_determinant_A3": 2.1035227701828516,
+        "signed_tetrahedral_determinant_H_origin_A3": 7.82172871407746,
+        "sum_CNC_angles_deg": 341.8810651985391
+      },
+      "state": "protonated"
+    }
+  ],
+  "coordinate_template_use": "none; no receptor, paroxetine, deposited-ligand or other ligand coordinates used",
+  "identity_check": {
+    "chloride_docked": false,
+    "neutral_complete_graph_map_counts": {
+      "retained_pubchem_connectivity": 2,
+      "retained_swisstarget_query": 2,
+      "task_reference": 2
+    },
+    "neutral_graph": {
+      "atoms": [
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 0
+        },
+        {
+          "aromatic": false,
+          "element": "N",
+          "formal_charge": 0,
+          "index": 1
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 2
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 3
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 4
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 5
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 6
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 7
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 8
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 9
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 10
+        },
+        {
+          "aromatic": false,
+          "element": "O",
+          "formal_charge": 0,
+          "index": 11
+        },
+        {
+          "aromatic": false,
+          "element": "O",
+          "formal_charge": 0,
+          "index": 12
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 13
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 14
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 15
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 16
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 17
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 18
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 19
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 20
+        }
+      ],
+      "bonds": [
+        {
+          "atom1": 0,
+          "atom2": 1,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 1,
+          "atom2": 2,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 1,
+          "atom2": 14,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 2,
+          "atom2": 3,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 3,
+          "atom2": 4,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 4,
+          "atom2": 5,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 4,
+          "atom2": 9,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 5,
+          "atom2": 6,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 6,
+          "atom2": 7,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 7,
+          "atom2": 8,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 8,
+          "atom2": 9,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 8,
+          "atom2": 10,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 10,
+          "atom2": 11,
+          "order": "DOUBLE"
+        },
+        {
+          "atom1": 10,
+          "atom2": 12,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 12,
+          "atom2": 13,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 14,
+          "atom2": 15,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 15,
+          "atom2": 16,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 15,
+          "atom2": 20,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 16,
+          "atom2": 17,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 17,
+          "atom2": 18,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 18,
+          "atom2": 19,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 19,
+          "atom2": 20,
+          "order": "AROMATIC"
+        }
+      ],
+      "canonical_isomeric_smiles": "COC(=O)c1cccc(CCN(C)Cc2ccccc2)c1",
+      "formal_charge": 0,
+      "formula": "C18H21NO2",
+      "heavy_atoms": 21,
+      "heavy_heavy_bonds": 22
+    },
+    "neutral_nitrogen_index": 1,
+    "neutral_representations": {
+      "retained_pubchem_connectivity": "CN(CCC1=CC(=CC=C1)C(=O)OC)CC2=CC=CC=C2",
+      "retained_swisstarget_query": "COC(=O)c1cccc(c1)CCN(Cc1ccccc1)C",
+      "task_reference": "CN(CCc1cccc(c1)C(=O)OC)Cc2ccccc2"
+    },
+    "protonated_complete_graph_map_counts": {
+      "retained_pubchem_ion_pair_moiety_without_chloride": 2,
+      "task_reference": 2
+    },
+    "protonated_graph": {
+      "atoms": [
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 0
+        },
+        {
+          "aromatic": false,
+          "element": "N",
+          "formal_charge": 1,
+          "index": 1
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 2
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 3
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 4
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 5
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 6
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 7
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 8
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 9
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 10
+        },
+        {
+          "aromatic": false,
+          "element": "O",
+          "formal_charge": 0,
+          "index": 11
+        },
+        {
+          "aromatic": false,
+          "element": "O",
+          "formal_charge": 0,
+          "index": 12
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 13
+        },
+        {
+          "aromatic": false,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 14
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 15
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 16
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 17
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 18
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 19
+        },
+        {
+          "aromatic": true,
+          "element": "C",
+          "formal_charge": 0,
+          "index": 20
+        }
+      ],
+      "bonds": [
+        {
+          "atom1": 0,
+          "atom2": 1,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 1,
+          "atom2": 2,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 1,
+          "atom2": 14,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 2,
+          "atom2": 3,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 3,
+          "atom2": 4,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 4,
+          "atom2": 5,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 4,
+          "atom2": 9,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 5,
+          "atom2": 6,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 6,
+          "atom2": 7,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 7,
+          "atom2": 8,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 8,
+          "atom2": 9,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 8,
+          "atom2": 10,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 10,
+          "atom2": 11,
+          "order": "DOUBLE"
+        },
+        {
+          "atom1": 10,
+          "atom2": 12,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 12,
+          "atom2": 13,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 14,
+          "atom2": 15,
+          "order": "SINGLE"
+        },
+        {
+          "atom1": 15,
+          "atom2": 16,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 15,
+          "atom2": 20,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 16,
+          "atom2": 17,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 17,
+          "atom2": 18,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 18,
+          "atom2": 19,
+          "order": "AROMATIC"
+        },
+        {
+          "atom1": 19,
+          "atom2": 20,
+          "order": "AROMATIC"
+        }
+      ],
+      "canonical_isomeric_smiles": "COC(=O)c1cccc(CC[NH+](C)Cc2ccccc2)c1",
+      "formal_charge": 1,
+      "formula": "C18H22NO2+",
+      "heavy_atoms": 21,
+      "heavy_heavy_bonds": 22
+    },
+    "protonated_nitrogen_index": 1,
+    "protonated_representations": {
+      "retained_pubchem_ion_pair_moiety_without_chloride": "C[NH+](CCC1=CC(=CC=C1)C(=O)OC)CC2=CC=CC=C2",
+      "task_reference": "C[NH+](CCc1cccc(c1)C(=O)OC)Cc2ccccc2"
+    },
+    "stereochemistry": "no carbon stereocenters specified; nitrogen coordinate signs are explicit modeling assumptions, not permanent experimental enantiomers"
+  },
+  "rdkit_version": "2026.03.6",
+  "within_state_comparisons": [
+    {
+      "conformer1": "prl_neutral_c1",
+      "conformer2": "prl_neutral_c2",
+      "geometrically_distinct_observation": true,
+      "nitrogen_signs": [
+        1,
+        -1
+      ],
+      "state": "neutral",
+      "symmetry_aware_aligned_heavy_atom_RMSD_A": 1.9817681844654167
+    },
+    {
+      "conformer1": "prl_protonated_c1",
+      "conformer2": "prl_protonated_c2",
+      "geometrically_distinct_observation": true,
+      "nitrogen_signs": [
+        -1,
+        1
+      ],
+      "state": "protonated",
+      "symmetry_aware_aligned_heavy_atom_RMSD_A": 0.8571583630262459
+    }
+  ]
+}

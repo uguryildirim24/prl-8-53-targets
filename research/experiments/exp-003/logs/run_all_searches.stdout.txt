@@ -1,0 +1,6 @@
+{"elapsed_seconds": 3.606, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 478134272, "seed": 2301, "state": "paroxetine_neutral", "stop_reason": null}
+{"elapsed_seconds": 3.613, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 478134272, "seed": 2302, "state": "paroxetine_neutral", "stop_reason": null}
+{"elapsed_seconds": 3.672, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 478052352, "seed": 2303, "state": "paroxetine_neutral", "stop_reason": null}
+{"elapsed_seconds": 3.766, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 486326272, "seed": 2401, "state": "paroxetine_protonated", "stop_reason": null}
+{"elapsed_seconds": 3.715, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 486244352, "seed": 2402, "state": "paroxetine_protonated", "stop_reason": null}
+{"elapsed_seconds": 3.759, "observed_process_tree_nice_values": [19], "returncode": 0, "sampled_peak_process_tree_rss_bytes": 486440960, "seed": 2403, "state": "paroxetine_protonated", "stop_reason": null}

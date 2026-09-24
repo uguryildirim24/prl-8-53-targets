@@ -1,0 +1,9 @@
+Template padding will be used.
+[32m gasteiger charges will be read from template file 
+ [0m
+
+Files written:
+<repo>/research/experiments/exp-002/derived/receptor_3tdc_assembly2_prepared.pdb <-- processed receptor PDB
+       <repo>/research/experiments/exp-002/derived/receptor_3tdc_assembly2.pdbqt <-- static (i.e., rigid) receptor input file
+                        <repo>/research/experiments/exp-002/derived/vina_box.txt <-- Vina-style box dimension file
+     <repo>/research/experiments/exp-002/derived/receptor_3tdc_assembly2.box.pdb <-- PDB file to visualize the grid box

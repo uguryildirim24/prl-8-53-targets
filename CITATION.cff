@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "PRL-8-53 target hypotheses: a bounded evidence audit and limited docking checks"
+message: "If you use this work, please cite it as below."
+type: software
+authors:
+  - given-names: "Hasan Ugur"
+    family-names: "Yildirim"
+    alias: "Rolf"
+    affiliation: "Lasell University, Newton, MA, USA"
+repository-code: "https://github.com/uguryildirim24/prl-8-53-targets"
+url: "https://github.com/uguryildirim24/prl-8-53-targets"
+abstract: >-
+  An evidence audit and limited computational docking checks of the molecular-target
+  hypotheses for PRL-8-53, an experimental compound with historical behavioural
+  reports but no established mechanism. No binding target is established. The ACC2
+  pilot was stopped when its native-ligand redocking control failed, so no
+  PRL-8-53/ACC2 score exists; a SERT reference pilot passed its control and
+  produced exploratory, uncalibrated PRL-8-53 poses. The result is an auditable
+  shortlist of hypotheses with explicit failure evidence, not target confirmation.
+keywords:
+  - PRL-8-53
+  - molecular docking
+  - AutoDock Vina
+  - target deconvolution
+  - reproducibility
+  - negative result
+  - computational pharmacology
+license: MIT
+license-url: "https://github.com/uguryildirim24/prl-8-53-targets/blob/main/LICENSE"
+version: "1.0.0"
+date-released: "2026-09-24"
+year: 2026
