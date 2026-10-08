@@ -2,7 +2,8 @@
 
 **Compound:** PRL-8-53 (methyl 3-[2-[benzyl(methyl)amino]ethyl]benzoate)
 **Date:** 2026-09-22 / 2026-09-23
-**Status:** Registry pilot and first target-prediction run completed; no docking run executed
+**Historical status (2026-09-23):** Registry pilot and first target-prediction run completed; no docking run had yet been executed
+**Release note:** This is a dated scientific plan, not a current run guide. Later controlled docking is recorded in exp-002 through exp-004. Service exports are not redistributed. Current offline commands are in the repository README.
 **Author:** Hasan Ugur (Rolf) Yildirim
 
 ---
@@ -54,7 +55,7 @@ The CYP activities belong to a smaller fragment-like molecule, not PRL-8-53. The
 ## 4. Stage 2: Completed Target-Prediction Experiment (SwissTargetPrediction)
 
 ### 4.1 Tool Selection & Terms Caveat
-SwissTargetPrediction (`https://www.swisstargetprediction.ch/`) was verified reachable (HTTP 200 OK) on 2026-09-22. Its terms restrict how the service may be accessed and how much of the licensed material may be collected; two single-molecule queries through the ordinary web form were within the intended scope, and the result material is not redistributed with this project. SEA was protected by an Altcha proof-of-work challenge, and SuperPred/TargetNet exhibited TLS certificate issues.
+SwissTargetPrediction (`https://www.swisstargetprediction.ch/`) was verified reachable (HTTP 200 OK) on 2026-09-22. Its terms restrict how the service may be accessed and how much of the licensed material may be collected; the original plan proposed two ordinary web-form queries. The completed run used automated access, which the later audit identified as prohibited. Further access stopped. Result material is not redistributed with this project. SEA was protected by an Altcha proof-of-work challenge, and SuperPred/TargetNet exhibited TLS certificate issues.
 
 ### 4.2 Original Query Execution Protocol
 
@@ -103,24 +104,11 @@ If the gating conditions above are satisfied, docking should be conducted provis
 
 ---
 
-## 6. Resource Ceilings & Execution Boundaries
+## 6. Historical resource plan
 
-For any future computational runs (whether on the Mac or on a remote machine):
+The initial plan proposed at most four CPU cores and 16 GB RAM in aggregate, with `nice -n 19` and serial jobs. These were intended ceilings, not measured or proven hard limits. Later experiment protocols and monitor records document the actual thread settings, sampled RSS, and scheduling deviations. They do not establish aggregate or hard memory enforcement.
 
-1.  **Project Ceilings (Hard Limits):**
-    *   Maximum **4 CPU cores** in aggregate.
-    *   Maximum **16 GB RAM** in aggregate.
-    *   All processes must execute under **`nice -n 19`**.
-2.  **Thread & Process Capping:**
-    *   When running multi-threaded tools such as AutoDock Vina, CPU threads must be explicitly capped (e.g., `--cpu 4` with only a single job executing at a time).
-    *   Memory consumption must be bounded and monitored before launching large batch runs.
-    *   Timings and memory scaling have not been empirically benchmarked on the remote box; no assumptions of zero overhead or instant execution may be made.
-3.  **Host and Environment Boundaries:**
-    *   No remote machine logins, file modifications, or process inspections are in scope. Remote paths and environments remain separate verification tasks.
-    *   If remote jobs share a machine with other studies (such as `flyonenomics`), strict process and path isolation must be maintained: never access, read, write, or interfere with external folders or processes.
-4.  **Local Tooling Status:**
-    *   Open Babel 3.2.1 is available locally at `/opt/homebrew/bin/obabel`.
-    *   AutoDock Vina is not currently in PATH on the local Mac and must be verified or installed when docking is formally scheduled.
+Machine-specific tool locations and unrelated project-isolation instructions were removed for the public release. Use the repository README for current analysis dependencies and commands.
 
 ---
 

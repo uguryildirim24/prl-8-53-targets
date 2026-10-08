@@ -1,4 +1,4 @@
-# Reproducibility and Provenance Manifest — Alternative Target Audit (Ranks 2–6)
+# Reproducibility and Provenance Manifest: Alternative Target Audit (Ranks 2 to 6)
 
 ## Scope
 
@@ -24,7 +24,7 @@ Nothing in this folder constitutes a wet-lab measurement or direct experimental 
 
 The ChEMBL and UniProt records retained here were retrieved on 2026-09-23 using bounded, unauthenticated standard HTTP/1.1 requests through the Python 3.13 standard library (`urllib.request`), and remain subject to those services' ordinary terms. No account, access-control bypass, or bulk dataset download was used.
 
-The target predictions that produced ranks 2–6 came from the SwissTargetPrediction web server. That service output is **not** redistributed in this repository. What was carried forward is the list of target identities and the nearest source compounds named by the service, which were then traced independently through the ChEMBL API; those ChEMBL records are the evidence retained here. See [`docs/target-shortlist.md`](../../docs/target-shortlist.md).
+The target predictions that produced ranks 2 to 6 came from the SwissTargetPrediction web server. That service output is **not** redistributed in this repository. What was carried forward is the list of target identities and the nearest source compounds named by the service, which were then traced independently through the ChEMBL API; those ChEMBL records are the evidence retained here. See [`docs/target-shortlist.md`](../../docs/target-shortlist.md).
 
 For every external query, three files are maintained:
 1. The raw payload (`.json`, `.csv`, or `.raw.html`).

@@ -1,5 +1,7 @@
 # exp-004 command record
 
+This is historical search provenance, not the clean-clone run guide. Use the repository README for saved-pose replay. Empty captures were removed for release. Analysis and validation still overwrite retained tables and summaries. The original inventory builder always labels its output as frozen before search, even when poses already exist. Do not rerun it to repair historical provenance. The retained inventory mismatch is documented in `docs/release-review.md`.
+
 Working directory is the repository root on the authorized local Mac. No network request, package installation, helper, container or other project path is used. The external runtime path is temporary provenance; a future rerun must supply an equivalent exact-version environment if it disappears.
 
 ```sh
@@ -26,7 +28,7 @@ nice -n 19 "$EXP004_RUNTIME/.venv/bin/python" \
   research/experiments/exp-004/scripts/build_presearch_inventory.py
 ```
 
-The first Git commit contains that protocol, prepared-input inventory and all four conformers/PDBQTs, with no search output. After that commit, the frozen 12-run matrix is executed strictly serially:
+The original workflow recorded the protocol, prepared-input inventory and all four conformers/PDBQTs before the searches. That chronology statement is not an external timestamp attestation. The retained public inventory contains stale values and does not establish that edited records existed before docking. The fixed 12-run matrix was executed strictly serially:
 
 ```sh
 env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 \

@@ -1,14 +1,14 @@
-# Audit of Alternative Target Predictions (Ranks 2–6) for PRL-8-53
+# Audit of Alternative Target Predictions (Ranks 2 to 6) for PRL-8-53
 
 ## 1. Scope and Analytical Framework
 
 This audit evaluates the evidence supporting the five targets immediately following rank-1 ACACB in the target predictions obtained from the SwissTargetPrediction web server (`exp-001`). The scope covers ranks 2 through 6 in rank order:
 
-1. **Rank 2: OPRM1** / P35372 / CHEMBL233 — Mu-type opioid receptor
-2. **Rank 3: KCNJ1** / P48048 / CHEMBL1293292 — Inward-rectifier potassium channel (Kir1.1 / ROMK)
-3. **Rank 4: BCHE** / P06276 / CHEMBL1914 — Cholinesterase (Butyrylcholinesterase)
-4. **Rank 5: KCNH2** / Q12809 / CHEMBL240 — Voltage-gated potassium channel Kv11.1 (hERG)
-5. **Rank 6: SLC6A4** / P31645 / CHEMBL228 — Sodium-dependent serotonin transporter (SERT)
+1. **Rank 2: OPRM1** / P35372 / CHEMBL233: Mu-type opioid receptor
+2. **Rank 3: KCNJ1** / P48048 / CHEMBL1293292: Inward-rectifier potassium channel (Kir1.1 / ROMK)
+3. **Rank 4: BCHE** / P06276 / CHEMBL1914: Cholinesterase (Butyrylcholinesterase)
+4. **Rank 5: KCNH2** / Q12809 / CHEMBL240: Voltage-gated potassium channel Kv11.1 (hERG)
+5. **Rank 6: SLC6A4** / P31645 / CHEMBL228: Sodium-dependent serotonin transporter (SERT)
 
 ### Methodological Principles
 - **Reversible Work Budget:** The selection of these five targets reflects a sequential computational work budget based strictly on prediction rank. It does not reflect biological confidence, established therapeutic relevance, or target validation.
@@ -77,7 +77,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Target Assignment Confidence: `8` (Homologous protein target assigned). *Caveat:* ChEMBL confidence 8 indicates an unresolved homologous protein target assignment in the database curation; species/construct mapping is taken from curated database fields rather than verified full-text validation of the cloned cell line.
   - Activity Pagination: Total target-filtered records in ChEMBL 37 = 2 (`total_count: 2`, `next: null`). The second record (Activity ID `879140`) is a functional $[^{35}\text{S}]\text{GTP}\gamma\text{S}$ assay (`CHEMBL754685`) showing no reported agonism.
 - **Primary Source:**
-  - Publication: Le Bourdonnec et al., *Bioorg Med Chem Lett* 2003, 13(24), 4459–4462.
+  - Publication: Le Bourdonnec et al., *Bioorg Med Chem Lett* 2003, 13(24), 4459 to 4462.
   - Title: *trans-3,4-dimethyl-4-(3-carboxamidophenyl)piperidines: a novel class of $\mu$-selective opioid antagonists.*
   - Identifiers: DOI `10.1016/j.bmcl.2003.09.012` | PubMed `14643346` | ChEMBL Document `CHEMBL1136497`.
   - Evidence Level: Curated ChEMBL record and publication abstract inspected.
@@ -124,7 +124,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Total Target Activities in ChEMBL 37: 3 (`total_count: 3`, `next: null`).
   - *Format Clarification:* Although ChEMBL assigns assay type code `B`, these assays measure cellular rubidium efflux and electrophysiological current inhibition, not direct equilibrium binding affinities ($K_i / K_d$).
 - **Primary Source:**
-  - Publication: Tang et al., *ACS Med Chem Lett* 2012, 3(5), 367–372.
+  - Publication: Tang et al., *ACS Med Chem Lett* 2012, 3(5), 367 to 372.
   - Title: *Discovery of Selective Small Molecule ROMK Inhibitors as Potential New Mechanism Diuretics.*
   - Identifiers: DOI `10.1021/ml3000066` | PubMed `24900480` | ChEMBL Document `CHEMBL2146432`.
 - **Structural Comparison with PRL-8-53:**
@@ -175,7 +175,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Total Target Activities in ChEMBL 37: 2 (`total_count: 2`, `next: null`).
   - *Format Clarification:* The endpoint is a spectrophotometric substrate-turnover enzyme-inhibition $\text{IC}_{50}$, not a binding dissociation constant.
 - **Primary Source:**
-  - Publication: Pidany et al., *RSC Med Chem* 2024, 15(7), 2378–2388.
+  - Publication: Pidany et al., *RSC Med Chem* 2024, 15(5), 1601 to 1625.
   - Title: *Carltonine-derived compounds for targeted butyrylcholinesterase inhibition.*
   - Identifiers: DOI `10.1039/d4md00060a` | PubMed `38784455` | ChEMBL Document `CHEMBL5532688`.
 - **Structural Comparison with PRL-8-53:**
@@ -243,7 +243,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Total Target Activities in ChEMBL 37: 1 (`total_count: 1`, `next: null`).
   - *Format Clarification:* The endpoint is whole-cell planar patch-clamp electrophysiology, not a radioligand binding affinity.
 - **Primary Source:**
-  - Publication: Brown et al., *Bioorg Med Chem Lett* 2011, 21(11), 3326–3330.
+  - Publication: Brown et al., *Bioorg Med Chem Lett* 2011, 21(11), 3326 to 3330.
   - Title: *2,6-Disubstituted pyrazines and related analogs as NR2B site antagonists of the NMDA receptor with anti-depressant activity.*
   - Identifiers: DOI `10.1016/j.bmcl.2011.03.117` | PubMed `21524576` | ChEMBL Document `CHEMBL1777674`.
   - *Context:* Assayed as an in vitro cardiac liability counterscreen during optimization of NMDA receptor antagonists.
@@ -272,7 +272,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Total Target Activities in ChEMBL 37: 1 (`total_count: 1`, `next: null`).
   - *Format Clarification:* The endpoint is cellular neurotransmitter uptake inhibition, not equilibrium binding.
 - **Primary Source:**
-  - Publication: Fray et al., *Bioorg Med Chem Lett* 2006, 16(16), 4420–4424.
+  - Publication: Fray et al., *Bioorg Med Chem Lett* 2006, 16(16), 4345 to 4348.
   - Title: *N-(1,2-diphenylethyl)piperazines: a new class of dual serotonin/noradrenaline reuptake inhibitor.*
   - Identifiers: DOI `10.1016/j.bmcl.2006.05.051` | PubMed `16750359` | ChEMBL Document `CHEMBL1146859`.
 - **Structural Comparison with PRL-8-53:**
@@ -293,7 +293,7 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Target Assignment Confidence: `8` (Homologous protein target assigned). *Caveat:* Confidence 8 indicates an unresolved homologous protein target assignment in ChEMBL; species/construct details reflect database curation.
   - Total Target Activities in ChEMBL 37: 1 (`total_count: 1`, `next: null`).
 - **Primary Source:**
-  - Publication: Jin et al., *Bioorg Med Chem* 2009, 17(14), 5126–5135.
+  - Publication: Jin et al., *Bioorg Med Chem* 2009, 17(14), 5126 to 5132.
   - Title: *Synthesis and structure-activity relationship of $3\beta$-(4-alkylthio, -methylsulfinyl, and -methylsulfonylphenyl)tropane and $3\beta$-(4-alkylthiophenyl)nortropane derivatives for monoamine transporters.*
   - Identifiers: DOI `10.1016/j.bmc.2009.05.052` | PubMed `19523837` | ChEMBL Document `CHEMBL1154083`.
 - **Structural Comparison with PRL-8-53:**
@@ -312,9 +312,9 @@ To evaluate whether source ligands actually preserve the architecture of PRL-8-5
   - Activity ID: `1682494`, $\text{IC}_{50} = 2350.0\text{ nM}$ ($2.35\ \mu\text{M}$; $p\text{ChEMBL} = 5.63$), inhibition of $[^3\text{H}]\text{5-HT}$ uptake (`CHEMBL859242`, confidence 9).
   - Total Target Activities in ChEMBL 37: 2 (`total_count: 2`, `next: null`).
 - **Primary Source:**
-  - Publication: Meltzer et al., *J Med Chem* 2006, 49(4), 1420–1432.
+  - Publication: Meltzer et al., *J Med Chem* 2006, 49(4), 1420 to 1432.
   - Identifiers: DOI `10.1021/jm050797a` | PubMed `16480278` | ChEMBL Document `CHEMBL1138144`.
-- **Significance:** CHEMBL201666 confirms that a compound containing an **aromatic methyl ester** (`-c1ccc(C(=O)OC)cc1`) exhibits measured micromolar binding and uptake inhibition ($2.35$–$3.65\ \mu\text{M}$) against human SERT in vitro. This observation shows that aromatic esters can be accommodated in this chemotype, but it does not establish a causal rule regarding the effect of an ester in other scaffolds.
+- **Significance:** CHEMBL201666 confirms that a compound containing an **aromatic methyl ester** (`-c1ccc(C(=O)OC)cc1`) exhibits measured micromolar binding and uptake inhibition ($2.35$-$3.65\ \mu\text{M}$) against human SERT in vitro. This observation shows that aromatic esters can be accommodated in this chemotype, but it does not establish a causal rule regarding the effect of an ester in other scaffolds.
 
 ---
 
@@ -325,9 +325,9 @@ The following synthesis compares the structural and pharmacological observations
 | Target | Rank | Predicted Probability | Nearest 2D Active | FP2 Score | Nearest 3D Active | 3D Score | Methyl Benzoate Preserved? | Tertiary Amine Preserved? | Nature of Primary Evidence | Methodological Notes & Limitations |
 |---|:---:|:---:|---|:---:|---|:---:|:---:|:---:|---|---|
 | **OPRM1** | 2 | 0.4058 | CHEMBL423726 | 0.6667 | CHEMBL138910 | 0.885 | **Yes** (in 2D: *meta*-ester) | Constrained (piperidine) | Single 2003 publication (`CHEMBL1136497`) of *trans*-3,4-dimethylpiperidine opioid antagonists ($K_i = 850\text{ nM}$ for ester) | Nearest 2D ligand carries *meta*-ester; amine is embedded in rigid piperidine core with N-phenethyl group. |
-| **KCNJ1** | 3 | 0.3039 | CHEMBL2146870 | 0.6386 | CHEMBL6050195 | 0.886 | **No** (phthalide lactones) | Symmetrical diamine / tertiary | ROMK diuretic program ($\text{IC}_{50} = 26$–$89\text{ nM}$ in efflux/patch-clamp) | Symmetrical bis-phthalide piperazine pore-blocker; 3D ligand contains N-methyl and benzyl-like group. |
-| **BCHE** | 4 | 0.3010 | CHEMBL5592832 | 0.6456 | CHEMBL5542214 | 0.863 | **No** (benzyloxy ethers) | **No** (secondary monoamines) | Single 2024 publication (`CHEMBL5532688`) on carltonine derivatives ($\text{IC}_{50} = 0.5$–$2.0\ \mu\text{M}$) | Secondary monoamines with benzyloxy ether groups; lacks ester carbonyl. |
-| **KCNH2** | 5 | 0.3004 | CHEMBL2146870 | 0.6386 | CHEMBL1779004 | 0.883 | **No** (phthalide lactone / biphenyl) | Piperazine / secondary | Measured in vitro counterscreens ($\text{IC}_{50} = 1.9$–$2.15\ \mu\text{M}$) from ROMK and NMDA receptor programs | **Shared ligand** with KCNJ1; off-target screens provide valid measured data, though training set density may reflect library ascertainment bias. |
+| **KCNJ1** | 3 | 0.3039 | CHEMBL2146870 | 0.6386 | CHEMBL6050195 | 0.886 | **No** (phthalide lactones) | Symmetrical diamine / tertiary | ROMK diuretic program ($\text{IC}_{50} = 26$-$89\text{ nM}$ in efflux/patch-clamp) | Symmetrical bis-phthalide piperazine pore-blocker; 3D ligand contains N-methyl and benzyl-like group. |
+| **BCHE** | 4 | 0.3010 | CHEMBL5592832 | 0.6456 | CHEMBL5542214 | 0.863 | **No** (benzyloxy ethers) | **No** (secondary monoamines) | Single 2024 publication (`CHEMBL5532688`) on carltonine derivatives ($\text{IC}_{50} = 0.5$-$2.0\ \mu\text{M}$) | Secondary monoamines with benzyloxy ether groups; lacks ester carbonyl. |
+| **KCNH2** | 5 | 0.3004 | CHEMBL2146870 | 0.6386 | CHEMBL1779004 | 0.883 | **No** (phthalide lactone / biphenyl) | Piperazine / secondary | Measured in vitro counterscreens ($\text{IC}_{50} = 1.9$-$2.15\ \mu\text{M}$) from ROMK and NMDA receptor programs | **Shared ligand** with KCNJ1; off-target screens provide valid measured data, though training set density may reflect library ascertainment bias. |
 | **SLC6A4** | 6 | 0.2695 | CHEMBL379536 | 0.6145 | CHEMBL579056 | 0.926 | Alicyclic ester in 3D; aromatic in CHEMBL201666 | Constrained (tropane / pyrrolidine) | $3\beta$-phenyltropanes ($K_i = 0.7\text{ nM}$) and pyrovalerones ($K_i = 3.65\ \mu\text{M}$) | High 3D score reflects shape overlap with cocaine analogs; pyrovalerone analog confirms aromatic ester accommodation in vitro. |
 
 ### Cross-Cutting Patterns

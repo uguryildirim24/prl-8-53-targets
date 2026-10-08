@@ -94,29 +94,29 @@ All searches were conducted between September 22 and September 23, 2026. Exact q
 
 ## 2. Primary Sources and Provenance Bibliography
 
-### 2.1 Hansl & Mead (1978) — Primary Human Study
-*   **Bibliographic Citation:** Hansl, N. R., & Mead, B. T. (1978). PRL-8-53: enhanced learning and subsequent retention in humans as a result of low oral doses of new psychotropic agent. *Psychopharmacology (Berl)*, 56(3), 249–253.
+### 2.1 Hansl & Mead (1978): Primary Human Study
+*   **Bibliographic Citation:** Hansl, N. R., & Mead, B. T. (1978). PRL-8-53: enhanced learning and subsequent retention in humans as a result of low oral doses of new psychotropic agent. *Psychopharmacology (Berl)*, 56(3), 249 to 253.
 *   **Identifiers:** DOI: [10.1007/BF00432846](https://doi.org/10.1007/BF00432846) | PMID: [418433](https://pubmed.ncbi.nlm.nih.gov/418433/)
 *   **Source Access Level:** Abstract and citation metadata verified via PubMed. Publisher full text is behind a Springer paywall; claims not exposed in the abstract are excluded below.
 *   **Abstract Text (Verbatim Excerpt from PubMed):**
     > "The effect of 3-(2-benzylmethylaminoethyl) benzoic acid methyl ester hydrochloride (PRL-8-53) on learning and on retention of verbal information in human subjects was investigated. Using the serial anticipation method under double-blind conditions it was found that PRL-8-53 causes slight improvement of acquisition. Retinetion of verbal information was found improved to a statistically significant degree (most P values better than 0.01, some better than 0.001). No significant changes were found for either visual reaction time or motor control after drug when compared with placebo values."
 *   **What the accessed abstract supports:** A double-blind serial-anticipation experiment in human subjects; slight improvement in acquisition; statistically significant improvement in retention; and no significant change in visual reaction time or motor control versus placebo. Participant count, dose, timing, word-list composition, and follow-up intervals require the inaccessible full text and are not treated here as independently verified. A non-significant result on the two controls does not prove an absence of sedation or stimulation.
 
-### 2.2 Hansl (1974) — Primary Preclinical Animal Report
-*   **Bibliographic Citation:** Hansl, N. R. (1974). A novel spasmolytic and CNS active agent: 3-(2-benzylmethylamino ethyl) benzoic acid methyl ester hydrochloride. *Experientia*, 30(3), 271–272.
+### 2.2 Hansl (1974): Primary Preclinical Animal Report
+*   **Bibliographic Citation:** Hansl, N. R. (1974). A novel spasmolytic and CNS active agent: 3-(2-benzylmethylamino ethyl) benzoic acid methyl ester hydrochloride. *Experientia*, 30(3), 271 to 272.
 *   **Identifiers:** DOI: [10.1007/BF01934822](https://doi.org/10.1007/BF01934822) | PMID: [4824605](https://pubmed.ncbi.nlm.nih.gov/4824605/)
 *   **Source Access Level:** Citation and MEDLINE indexing verified via PubMed; PubMed supplies no abstract, and the publisher full text is behind a Springer/Birkhäuser paywall. The indexing includes animals, rats, dogs, avoidance learning, memory, motor activity, blood pressure, methamphetamine, and apomorphine, but does not expose the paper's numerical results.
 *   **Access boundary:** Exact doses, effect sizes, and detailed claims attributed to this paper in later summaries were not independently checked against the full text and are not used as established results here. The patent separately supports inventor-reported rabbit-ileum, avoidance-learning, maze, and mouse-toxicity claims.
 
-### 2.3 Hansl (1975) — US Patent 3,870,715
+### 2.3 Hansl (1975): US Patent 3,870,715
 *   **Bibliographic Citation:** Hansl, N. R. (1975). *Substituted amino ethyl meta benzoic acid esters.* US Patent 3,870,715. Filed April 2, 1973; issued March 11, 1975; expired March 11, 1992.
 *   **URL:** [Google Patents US3870715A](https://patents.google.com/patent/US3870715A/en)
 *   **Source Access Level:** Complete scanned patent and Google Patents OCR transcription accessed from the URL above.
 *   **Relevant Excerpts:**
     *   *Example 1 (OCR typography normalized):*
-        > "The crude hydrochloride salt precipitated and was recrystallized from methyl alcohol/ether and then from isoamyl alcohol/ether mixtures. A total of 11.2 g. of white crystalline material consisting of m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester hydrochloride was obtained melting at 150–151°C."
+        > "The crude hydrochloride salt precipitated and was recrystallized from methyl alcohol/ether and then from isoamyl alcohol/ether mixtures. A total of 11.2 g. of white crystalline material consisting of m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester hydrochloride was obtained melting at 150 to 151°C."
     *   *Pharmacological evaluation:*
-        > "Standard avoidance response tests using negative reinforcement (electric shock) as well as maze tests using positive reinforcement (water reward) were conducted using rats as the experimental animal. Using m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester as the test compound, it was found that a compound of this structure facilitates the rats acquisition and increases subsequent retention... a preferred species of the invention m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester was found to have an oral LD of about 500–700 mg/kg in mice."
+        > "Standard avoidance response tests using negative reinforcement (electric shock) as well as maze tests using positive reinforcement (water reward) were conducted using rats as the experimental animal. Using m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester as the test compound, it was found that a compound of this structure facilitates the rats acquisition and increases subsequent retention... a preferred species of the invention m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester was found to have an oral LD of about 500 to 700 mg/kg in mice."
     *   *Context Note:* Patent toxicology statements (e.g., tolerance in dogs and monkeys up to 50 mg/kg; lack of organ pathology) are inventor reports, not peer-reviewed clinical safety profiles.
 
 ---

@@ -2,7 +2,8 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 Hasan Ugur (Rolf) Yildirim
 
-The documentation, manuscript text, and figures in this repository are licensed
+The original documentation, manuscript text, figures, and generated analysis
+outputs in this repository are licensed
 under the Creative Commons Attribution 4.0 International License. This covers:
 
   README.md
@@ -10,6 +11,11 @@ under the Creative Commons Attribution 4.0 International License. This covers:
   docs/
   figures/
   the *.md documentation files under research/
+  original generated CSV/TSV tables, JSON analysis summaries, and pose outputs
+
+This does not relicense retrieved records or their adaptations. Third-party
+terms, including ChEMBL share-alike requirements, take precedence for those
+records and adaptations. See DATA-SOURCES.md for source attribution.
 
 You are free to share and adapt this material for any purpose, including
 commercially, provided you give appropriate credit, link to the license, and

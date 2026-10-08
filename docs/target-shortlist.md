@@ -1,6 +1,6 @@
 # Target shortlist
 
-The starting hypotheses for this project came from a ligand-based target prediction for PRL-8-53. Predictions were obtained from the SwissTargetPrediction web server (Daina, Michielin & Zoete, *Nucleic Acids Res.* **47**:W357–W364, 2019, DOI [`10.1093/nar/gkz382`](https://doi.org/10.1093/nar/gkz382)), run against *Homo sapiens* for both a neutral and an explicitly protonated representation of the compound. Both representations returned the same ranking.
+The starting hypotheses for this project came from a ligand-based target prediction for PRL-8-53. Predictions were obtained from the SwissTargetPrediction web server (Daina, Michielin & Zoete, *Nucleic Acids Res.* **47**:W357-W364, 2019, DOI [`10.1093/nar/gkz382`](https://doi.org/10.1093/nar/gkz382)), run against *Homo sapiens* for both a neutral and an explicitly protonated representation of the compound. Both representations returned the same ranking.
 
 The service's result material is **not redistributed in this repository**. The table below is a hand-written summary of which targets were carried forward and why. It reports no service scores and reproduces no service output. Anyone who wants the ranking itself should run the query at the service.
 
@@ -23,4 +23,4 @@ Nomenclature note: the service's export labels KCNJ1 as a "voltage-gated ion cha
 
 ## What the shortlist does not mean
 
-No target on this list is established. Ranks 2–5 were never followed up computationally, and the absence of a follow-up calculation is not a negative result. Rank 1 failed its structural control before PRL-8-53 was ever docked. Rank 6 produced poses in a rigid, stripped, paroxetine-centered box that cannot be converted into an affinity or a binding claim. The full evidence appraisal for ranks 2–6 is in [`research/alternative-target-audit.md`](../research/alternative-target-audit.md), and the ACC2 appraisal is in [`docs/process/acc2-feasibility.md`](process/acc2-feasibility.md).
+No target on this list is established. Ranks 2 to 5 were never followed up computationally, and the absence of a follow-up calculation is not a negative result. Rank 1 failed its structural control before PRL-8-53 was ever docked. Rank 6 produced poses in a rigid, stripped, paroxetine-centered box that cannot be converted into an affinity or a binding claim. The full evidence appraisal for ranks 2 to 6 is in [`research/alternative-target-audit.md`](../research/alternative-target-audit.md), and the ACC2 appraisal is in [`docs/process/acc2-feasibility.md`](process/acc2-feasibility.md).

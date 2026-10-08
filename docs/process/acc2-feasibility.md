@@ -41,7 +41,7 @@ In SwissTargetPrediction experiment `exp-001` (source commit `18d4794177cf1c749b
 ### 2.2 Construct Identity and ChEMBL Target Assignment
 
 *   **Cloned Construct:** US Patent 9,340,510 B2 paragraph [0225] explicitly states:
-    > "For biological testing, a human ACC2 construct which lacks the 128 amino acids at the N-terminus for increased solubility (nt 385–6966 in Genbank entry AJ575592) is cloned. The protein is then expressed in insect cells using a baculoviral expression system. Protein purification is performed by anion exchange."
+    > "For biological testing, a human ACC2 construct which lacks the 128 amino acids at the N-terminus for increased solubility (nt 385 to 6966 in Genbank entry AJ575592) is cloned. The protein is then expressed in insect cells using a baculoviral expression system. Protein purification is performed by anion exchange."
 *   **ChEMBL Target Assignment Discrepancy:** In ChEMBL activity row 17768979 (payload in [`chembl-activity-17768979-CHEMBL3928386.json`](../../research/acc2-evidence/chembl-activity-17768979-CHEMBL3928386.json)), the target is listed as [CHEMBL4829](https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL4829/) (Homo sapiens ACC2) with relationship `H` ("Homologous protein target assigned") and confidence score **8**, rather than `D` / confidence 9. Assay CHEMBL3888444 has an organism label of `Homo sapiens` and says `hACC2`, but its `assay_tax_id` is null and the captured record gives no construct sequence.
 *   **Assessment:** The independently checked patent states that the cloned sequence is human ACC2 with an N-terminal 128-amino-acid deletion ($\Delta$1-128 hACC2). The specific rationale for ChEMBL's `H`/8 assignment is not documented. The patent disclosure does not erase the database caveats, and no curation rationale is inferred; the difference remains unexplained.
 
@@ -69,7 +69,7 @@ In SwissTargetPrediction experiment `exp-001` (source commit `18d4794177cf1c749b
 *   **Chemical Name:** *rac*-7-{1-[(2-amino-1-benzothiophen-3-yl)carbonyl]piperidin-4-yl}-3,3-dimethyl-2-oxa-7-azaspiro[4.5]decan-1-one
 *   **Molecular Formula:** $\text{C}_{25}\text{H}_{31}\text{N}_3\text{O}_3\text{S}$ (MW 453.60 g/mol)
 *   **SwissTargetPrediction Metric:** 3D similarity = **0.830**.
-*   **Primary Source:** Yamashita et al., *"Design, synthesis, and structure-activity relationships of spirolactones bearing 2-ureidobenzothiophene as acetyl-CoA carboxylases inhibitors,"* *Bioorg. Med. Chem. Lett.* 2011, **21**(21): 6314–6318 (DOI: [`10.1016/j.bmcl.2011.08.117`](https://doi.org/10.1016/j.bmcl.2011.08.117), PMID: [21944854](https://pubmed.ncbi.nlm.nih.gov/21944854/)).
+*   **Primary Source:** Yamashita et al., *"Design, synthesis, and structure-activity relationships of spirolactones bearing 2-ureidobenzothiophene as acetyl-CoA carboxylases inhibitors,"* *Bioorg. Med. Chem. Lett.* 2011, **21**(21): 6314 to 6318 (DOI: [`10.1016/j.bmcl.2011.08.117`](https://doi.org/10.1016/j.bmcl.2011.08.117), PMID: [21944854](https://pubmed.ncbi.nlm.nih.gov/21944854/)).
 *   **Compound Mapping:** Compound **25c** (payload in [`chembl-compound-record-1542641.json`](../../research/acc2-evidence/chembl-compound-record-1542641.json)).
 
 ### 3.2 Primary Assays and Activity Profile
@@ -97,17 +97,17 @@ An accession query of the RCSB PDB for UniProt [O00763](https://www.uniprot.org/
 
 1.  **PDB [3TDC](https://www.rcsb.org/structure/3TDC) (Archived payload: [`rcsb-pdb-entry-3TDC.json`](../../research/acc2-evidence/rcsb-pdb-entry-3TDC.json)):**
     *   *Method / Resolution:* X-ray diffraction, measured resolution **2.41 Å**.
-    *   *Construct:* Human ACC2 Carboxyltransferase (CT) domain, residues 1690–2458 with a C-terminal His-tag.
+    *   *Construct:* Human ACC2 Carboxyltransferase (CT) domain, residues 1690 to 2458 with a C-terminal His-tag.
     *   *Ligand:* `0EU` (compound 31 from Yamashita et al. 2011), bound in the CT catalytic pocket.
     *   *Asymmetric Unit:* Single monomer (Chain A).
 2.  **PDB [3FF6](https://www.rcsb.org/structure/3FF6) (Archived payload: [`rcsb-pdb-entry-3FF6.json`](../../research/acc2-evidence/rcsb-pdb-entry-3FF6.json)):**
     *   *Method / Resolution:* X-ray diffraction, measured resolution **3.19 Å**.
-    *   *Construct:* Human ACC2 CT domain, residues 1693–2458.
+    *   *Construct:* Human ACC2 CT domain, residues 1693 to 2458.
     *   *Ligand:* `RCP` (CP-640186), bound in the CT catalytic pocket.
     *   *Asymmetric Unit:* Four chains (A, B, C, D).
 3.  **PDB [5KKN](https://www.rcsb.org/structure/5KKN) (Archived payload: [`rcsb-pdb-entry-5KKN.json`](../../research/acc2-evidence/rcsb-pdb-entry-5KKN.json)):**
     *   *Method / Resolution:* X-ray diffraction, measured resolution **2.60 Å**.
-    *   *Construct:* Human ACC2 Biotin Carboxylase (BC) domain, residues 238–765.
+    *   *Construct:* Human ACC2 Biotin Carboxylase (BC) domain, residues 238 to 765.
     *   *Ligand:* `6U3` (ND-646, an allosteric inhibitor at the BC dimer interface).
 
 **Absence of 2D Analog Structure:** In the retrieved records and examined literature, no structure of ACC complexed with CHEMBL3928386 or any tetrahydroisoquinoline derivative was identified.
@@ -115,7 +115,7 @@ An accession query of the RCSB PDB for UniProt [O00763](https://www.uniprot.org/
 ### 4.2 Structural Assembly and Modeling Considerations
 
 *   **Dimer Interface Assembly:** In PDB 3TDC, the asymmetric unit contains a monomer (Chain A), but published structural literature indicates that the active site is formed across the homodimer interface. An isolated Chain A coordinate file does not represent the intact binding pocket. Any modeling attempt must generate the physiological dimer using crystallographic symmetry operators (space group $C 2 2 2_1$).
-*   **Unmodeled Regions:** The PDB 3TDC entry summary lists unmodeled segments (including residues 1–4, 701–713, and 738–762). Direct inspection of coordinate files is required to determine whether these loops impinge on the binding pocket.
+*   **Unmodeled Regions:** The PDB 3TDC entry summary lists unmodeled segments (including residues 1 to 4, 701 to 713, and 738 to 762). Direct inspection of coordinate files is required to determine whether these loops impinge on the binding pocket.
 *   **Residue Protonation and Charge:** Defining protonation states for active-site residues (such as Glu2230 and histidine residues) is a preparation variable that must be documented and tested as a parameter, rather than assumed as a known physical constant.
 
 ---
@@ -148,7 +148,7 @@ If a future experiment pursues an exploratory docking pilot, the following frame
 
 Under [`acc2-evidence/`](../../research/acc2-evidence/), 12 raw data payloads and summary manifests are preserved:
 
-*   [`us9340510b2-primary-excerpt.txt`](../../research/acc2-evidence/us9340510b2-primary-excerpt.txt): Primary excerpt of US Patent 9,340,510 B2 covering biological testing paragraphs [0224]–[0235] and Table 14 Ex. 1.2 synthesis.
+*   [`us9340510b2-primary-excerpt.txt`](../../research/acc2-evidence/us9340510b2-primary-excerpt.txt): Primary excerpt of US Patent 9,340,510 B2 covering biological testing paragraphs [0224]-[0235] and Table 14 Ex. 1.2 synthesis.
 *   [`chembl-activity-17768979-CHEMBL3928386.json`](../../research/acc2-evidence/chembl-activity-17768979-CHEMBL3928386.json): ChEMBL activity record for CHEMBL3928386 ($\text{IC}_{50} = 524\ \text{nM}$).
 *   [`chembl-assay-CHEMBL3888444.json`](../../research/acc2-evidence/chembl-assay-CHEMBL3888444.json): ChEMBL assay record for CHEMBL3888444 (confidence score 8).
 *   [`chembl-compound-record-2880959.json`](../../research/acc2-evidence/chembl-compound-record-2880959.json): ChEMBL compound record mapping CHEMBL3928386 to US9340510 Ex 1.002.

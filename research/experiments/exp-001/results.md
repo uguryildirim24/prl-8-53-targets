@@ -1,4 +1,4 @@
-# Experiment 001 — first PRL-8-53 target prediction
+# Experiment 001: first PRL-8-53 target prediction
 
 ## Result in one paragraph
 
@@ -17,14 +17,14 @@ The service's result material is not redistributed here. The targets carried for
 
 ## The candidate examined: ACACB
 
-The full ranking was read, but this bounded experiment interprets only the top-ranked target. The other 99 names are not treated as candidate evidence here because their nearest-actives and assays were not traced. (Ranks 2–6 were traced separately in [`research/alternative-target-audit.md`](../../alternative-target-audit.md).) The service reports ACACB as rank 1, UniProt O00763, CHEMBL4829, target class "Ligase," with 3,703 3D and 487 2D known actives in its pool. Its interface exposes at most 200 nearest actives per method. Because the service exposes no current training release, "source compound" below does not assert that a particular record or current ChEMBL row was in the trained model.
+The full ranking was read, but this bounded experiment interprets only the top-ranked target. The other 99 names are not treated as candidate evidence here because their nearest-actives and assays were not traced. (Ranks 2 to 6 were traced separately in [`research/alternative-target-audit.md`](../../alternative-target-audit.md).) The service reports ACACB as rank 1, UniProt O00763, CHEMBL4829, target class "Ligase," with 3,703 3D and 487 2D known actives in its pool. Its interface exposes at most 200 nearest actives per method. Because the service exposes no current training release, "source compound" below does not assert that a particular record or current ChEMBL row was in the trained model.
 
 ### Nearest 2D source compound
 
 - **CHEMBL3928386**, InChIKey `QEUWJQXZXZICOI-UHFFFAOYSA-N`
 - ChEMBL canonical SMILES: `COC(=O)c1ccc2c(c1)CCN(Cc1ccc(C(C)NC(C)=O)cc1)C2`
 - Reported FP2 similarity to PRL-8-53: **0.764706**; also fourth on the 3D list at **0.787**.
-- ChEMBL 37 has exactly one CHEMBL4829-filtered activity row (`page_meta.total_count: 1`, `next: null`): **IC50 = 524 nM**, relation `=`, standard units nM, activity 17768979. ChEMBL maps the row to its human ACACB target, but the assay's target assignment is **homologous single protein**, confidence score 8 — not a conclusive direct human-protein assignment.
+- ChEMBL 37 has exactly one CHEMBL4829-filtered activity row (`page_meta.total_count: 1`, `next: null`): **IC50 = 524 nM**, relation `=`, standard units nM, activity 17768979. ChEMBL maps the row to its human ACACB target, but the assay's target assignment is **homologous single protein**, confidence score 8, not a conclusive direct human-protein assignment.
 - Assay CHEMBL3888444 labels its organism `Homo sapiens` and its description says `hACC2`, but `assay_tax_id` is absent and the captured record does not identify the enzyme preparation or sequence. It measures loss of NADH absorbance at 340 nm in a coupled system containing ACC2, pyruvate kinase, and lactate dehydrogenase. This is an indirect enzyme-inhibition readout, not a binding affinity (`Ki`/`Kd`) or evidence that the ligand physically binds ACC2. The captured controls are vehicle and omission of acetyl-CoA; no compound-interference or coupling-enzyme counterscreen was captured, so inhibition of a coupling enzyme or optical interference is not excluded by this record. The source is patent US-9340510-B2 (document CHEMBL3886715).
 
 The ligand shares both aromatic regions, a methyl aromatic ester, a tertiary amine, and an N-benzyl-like connection with PRL-8-53. It is nevertheless a ring-constrained tetrahydroisoquinoline bearing an extra acetamidoethyl substituent, whereas PRL-8-53 has a flexible benzyl(methyl)aminoethyl chain. The similarity therefore reflects a recognizable but materially different chemotype, not a close identity.

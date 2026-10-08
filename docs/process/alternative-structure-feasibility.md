@@ -20,7 +20,7 @@ Consequently this audit does not claim exhaustive structure counts, coordinate-m
 | Target | Defensible primary candidate | What the archived records establish | Important limit |
 |---|---|---|---|
 | Human SERT | [6VRH](https://www.rcsb.org/structure/6VRH), paroxetine-bound | 3.3 Å cryo-EM; title identifies wild-type human SERT with paroxetine and 8B6 Fab; polymer entity is a 630-residue human SLC6A4 sequence, SIFTS-mapped over all 630 residues to P31645, with `rcsb_mutation_count = 0` | Coordinates were not archived, so pocket contacts, modeled residue span, ions, local density, and Fab-to-pocket separation remain unchecked |
-| Human OPRM1 | [8EF5](https://www.rcsb.org/structure/8EF5), fentanyl-bound | 3.3 Å cryo-EM; title identifies a fentanyl-bound μ-opioid receptor–Gi complex; polymer entity is human OPRM1, SIFTS-mapped to P35372, with `rcsb_mutation_count = 0` | The deposited receptor entity maps to canonical residues 2–368, not the previously claimed 6–353; modeled residue span, contacts, partner proximity, and local density remain unchecked |
+| Human OPRM1 | [8EF5](https://www.rcsb.org/structure/8EF5), fentanyl-bound | 3.3 Å cryo-EM; title identifies a fentanyl-bound μ-opioid receptor-Gi complex; polymer entity is human OPRM1, SIFTS-mapped to P35372, with `rcsb_mutation_count = 0` | The deposited receptor entity maps to canonical residues 2 to 368, not the previously claimed 6 to 353; modeled residue span, contacts, partner proximity, and local density remain unchecked |
 
 These are candidate starting structures, not prepared models. The zero-mutation statements are depositor/RCSB sequence metadata, not coordinate-by-coordinate validation.
 
@@ -39,7 +39,7 @@ This is enough to prefer 6VRH as a human, deposited-wild-type, ligand-bound SERT
 
 ### 1.2 Comparison structure: 5I6X
 
-The archived 5I6X entry reports a 3.14 Å X-ray structure of human SERT with paroxetine. SIFTS maps entity residues 3–545 to P31645 residues 76–618. A direct comparison of that mapped deposited sequence with the archived full-length 6VRH sequence finds **five** substitutions:
+The archived 5I6X entry reports a 3.14 Å X-ray structure of human SERT with paroxetine. SIFTS maps entity residues 3 to 545 to P31645 residues 76 to 618. A direct comparison of that mapped deposited sequence with the archived full-length 6VRH sequence finds **five** substitutions:
 
 - Y110A
 - I291A
@@ -65,7 +65,7 @@ The archived 8EF5 entry reports a 3.3 Å cryo-EM “Fentanyl-bound mu-opioid rec
 
 - identifies *Homo sapiens* OPRM1;
 - has a deposited length of 367 residues;
-- maps by SIFTS from entity residue 1 to P35372 residue 2 for all 367 residues, i.e. canonical residues 2–368; and
+- maps by SIFTS from entity residue 1 to P35372 residue 2 for all 367 residues, i.e. canonical residues 2 to 368; and
 - reports no sequence conflicts, deletions, insertions, or mutations.
 
 The archived `7V7` chemical-component record establishes the fentanyl component identity. Together these records make 8EF5 a defensible fentanyl-bound, Gi-coupled human OPRM1 candidate. Calling its receptor conformation “active state” is a structural interpretation that still requires coordinate or primary-source verification. The records do not establish which residues are actually modeled, atom-level contacts, or the reported mutations of every partner protein; those require coordinate and partner-entity records.
@@ -84,8 +84,8 @@ The archive does not include the coordinate record needed to verify the previous
 
 The archived polymer records support local residue mapping without assuming a universal offset:
 
-- 8EF5 maps its deposited human sequence to P35372 residues 2–368.
-- 4DKL maps receptor segments to P42866 residues 52–263 and 270–360.
+- 8EF5 maps its deposited human sequence to P35372 residues 2 to 368.
+- 4DKL maps receptor segments to P42866 residues 52 to 263 and 270 to 360.
 - In the conserved TM3 window, human P35372 Asp149 and mouse P42866 Asp147 occupy the corresponding local sequence position.
 - In the conserved TM5 window, human P35372 Lys235 corresponds locally to mouse P42866 Lys233.
 - Human P35372 residue 233 is Leu.

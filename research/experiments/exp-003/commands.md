@@ -1,5 +1,7 @@
 # exp-003 command record
 
+This is historical search provenance, not the clean-clone run guide. Use the repository README for saved-pose replay. Empty stdout/stderr captures and a duplicate preparation capture were removed for release. Meaningful failure logs and monitors remain. Analysis and validation still overwrite this experiment's retained tables and summaries.
+
 Working directory was the repository root on the local Mac. `EXP003_RUNTIME` points to the already existing project-local exp-002 environment; no package or binary was installed or copied. Every command below used the preserved inputs whose hashes are in `inputs/source_manifest.json`. The recorded path is a local working copy and is not durable: it existed and its Vina binary matched the recorded hash during review, but exp-003 does not contain the virtual environment, binary or a complete dependency lock. Reproduction therefore requires supplying an independently rebuilt exact-version environment after that worktree disappears.
 
 ```sh

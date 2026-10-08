@@ -50,7 +50,7 @@ For context only, exp-003's already reviewed paroxetine top scores were around -
 
 `tables/pose_pairs.csv` contains all 14,280 within-state pose pairs. RMSDs are direct in the unchanged protein frame, with no protein or ligand fit, minimized only over complete heavy-atom graph automorphisms. Cross-state pairs were not pooled because formal charge, donor/acceptor typing, hydrogen, independently generated geometry and N-handedness assumptions differ.
 
-All-mode distributions are broad because each run deliberately retains ranks 1–20:
+All-mode distributions are broad because each run deliberately retains ranks 1 to 20:
 
 | state | comparison | pair count | minimum | median | maximum |
 |---|---|---:|---:|---:|---:|
@@ -63,8 +63,8 @@ All-mode distributions are broad because each run deliberately retains ranks 1�
 
 Top-ranked poses provide a narrower view, still without a declared success or clustering threshold:
 
-- Neutral c1 top poses differed by 0.2058–0.8807 A across seeds. Neutral c2 seeds 5301/5302 differed by 0.0849 A, but seed 5303 differed from them by 6.0802–6.0825 A and had a substantially different top score. Across neutral starts, top-pose RMSDs ranged 0.8428–6.2508 A (median 6.1833 A). This is a clear negative/inconsistent observation for robustness to starting geometry and seed.
-- Protonated top poses differed by 0.0927–1.1159 A across seeds within a start. Across the two opposite-N starts, top-pose RMSDs ranged 1.1642–1.4109 A (median 1.3107 A). This limited sample is more internally consistent than the neutral sample, but it does not establish physiological preference, binding or broader robustness.
+- Neutral c1 top poses differed by 0.2058 to 0.8807 A across seeds. Neutral c2 seeds 5301/5302 differed by 0.0849 A, but seed 5303 differed from them by 6.0802 to 6.0825 A and had a substantially different top score. Across neutral starts, top-pose RMSDs ranged 0.8428 to 6.2508 A (median 6.1833 A). This is a clear negative/inconsistent observation for robustness to starting geometry and seed.
+- Protonated top poses differed by 0.0927 to 1.1159 A across seeds within a start. Across the two opposite-N starts, top-pose RMSDs ranged 1.1642 to 1.4109 A (median 1.3107 A). This limited sample is more internally consistent than the neutral sample, but it does not establish physiological preference, binding or broader robustness.
 
 No data-driven RMSD cutoff or cluster boundary was imposed. A reproducible model pose is still only a repeatable output of this setup. Conversely, inconsistency or absence of a visually favored pose would not establish nonbinding.
 
@@ -78,7 +78,7 @@ Therefore these outputs do not establish SERT binding, affinity, potency, effica
 
 ## Resources, deviation and reproducibility
 
-The actual host was the authorized local arm64 Mac (Darwin 27.0.0, 18 logical CPUs, 25,769,803,776 physical bytes). Runs were serial. Vina had `--cpu 2`, OMP two and numerical libraries one. Per-run elapsed times were 3.890–4.080 s; sampled child-tree peak RSS was 445,284,352–450,854,912 bytes, below the configured 3 GiB stop. No stop fired. Preparation and analysis were invoked with `nice -n 19` and one configured numerical thread; their `/usr/bin/time` records report maximum resident set sizes of 54,984,704–100,040,704 bytes, but do not independently record effective nice values or aggregate project use. Shell memory limits were unlimited, so neither hard 4 GB nor project-wide aggregate enforcement is claimed; sampling can miss short peaks.
+The actual host was the authorized local arm64 Mac (Darwin 27.0.0, 18 logical CPUs, 25,769,803,776 physical bytes). Runs were serial. Vina had `--cpu 2`, OMP two and numerical libraries one. Per-run elapsed times were 3.890 to 4.080 s; sampled child-tree peak RSS was 445,284,352 to 450,854,912 bytes, below the configured 3 GiB stop. No stop fired. Preparation and analysis were invoked with `nice -n 19` and one configured numerical thread; their `/usr/bin/time` records report maximum resident set sizes of 54,984,704 to 100,040,704 bytes, but do not independently record effective nice values or aggregate project use. Shell memory limits were unlimited, so neither hard 4 GB nor project-wide aggregate enforcement is claimed; sampling can miss short peaks.
 
 One scheduling deviation is preserved rather than hidden: the sequential driver itself was invoked with `nice -n 19`, then each wrapper again invoked `nice -n 19`; macOS saturated the effective child nice value at 20 rather than the specified 19. This lowered scheduling priority further and did not grant extra resources. No run was retried. `derived/validation.json` therefore records data/resource integrity as passing but `effective_nice_exactly_19: false`.
 

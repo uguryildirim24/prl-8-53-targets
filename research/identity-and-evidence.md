@@ -62,9 +62,9 @@
 ### 1.4 Patent Corroboration
 *   **Source:** US Patent 3,870,715 (Inventor: Nikolaus R. Hansl; issued March 11, 1975), checked in the scanned patent and Google Patents OCR transcription.
 *   **Example 1 (OCR typography normalized):**
-    > "The crude hydrochloride salt precipitated and was recrystallized from methyl alcohol/ether and then from isoamyl alcohol/ether mixtures. A total of 11.2 g. of white crystalline material consisting of m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester hydrochloride was obtained melting at 150–151°C."
+    > "The crude hydrochloride salt precipitated and was recrystallized from methyl alcohol/ether and then from isoamyl alcohol/ether mixtures. A total of 11.2 g. of white crystalline material consisting of m-[2-(benzylmethylamino)-ethyl]-benzoic acid methyl ester hydrochloride was obtained melting at 150 to 151°C."
 
-The 153–155°C value elsewhere in the patent belongs to the different benzyl ester in Example 20. A later sentence about hydrolysis also describes the free acid, not isolation of the methyl ester hydrochloride.
+The 153 to 155°C value elsewhere in the patent belongs to the different benzyl ester in Example 20. A later sentence about hydrolysis also describes the free acid, not isolation of the methyl ester hydrochloride.
 
 ---
 
@@ -87,7 +87,7 @@ The 153–155°C value elsewhere in the patent belongs to the different benzyl e
 | **Verbal acquisition and retention** | Serial anticipation | Human subjects | PRL-8-53 HCl; details not exposed in the accessed abstract | Slight improvement in acquisition and statistically significant improvement in retention; no significant change in visual reaction time or motor control versus placebo. | **No** | **Primary study abstract.** Hansl & Mead (1978), PMID 418433. The full text is paywalled; participant count, dose, timing, task materials, and follow-up intervals repeated by secondary sources were not independently checked. |
 | **Spasmolytic activity** | Ileum stimulated by acetylcholine, $\text{BaCl}_2$, and histamine | Isolated rabbit ileum | Form and concentration not stated in the patent passage | The patent presents class-level activity relative to papaverine. | **No** | **Inventor patent disclosure.** US Patent 3,870,715. The 1974 paper's citation and indexing were verified, but its full text was not accessed. |
 | **Avoidance and maze performance** | Avoidance response (electric shock) and maze (water reward) | Rats | Patent passage does not state form, route, or dose | Patent reports facilitated acquisition and increased subsequent retention for the methyl ester. | **No** | **Inventor patent disclosure.** US Patent 3,870,715. No quantitative result appears in the cited passage. |
-| **Preclinical toxicity** | Acute oral lethal dose | Mice | Patent passage does not fully specify form | Patent reports oral $\text{LD}_{50}$ of about 500–700 mg/kg. | **No** | **Inventor patent disclosure.** US Patent 3,870,715; not a clinical safety profile. |
+| **Preclinical toxicity** | Acute oral lethal dose | Mice | Patent passage does not fully specify form | Patent reports oral $\text{LD}_{50}$ of about 500 to 700 mg/kg. | **No** | **Inventor patent disclosure.** US Patent 3,870,715; not a clinical safety profile. |
 
 ---
 

@@ -1,7 +1,7 @@
 # Methods Review: Computational Target Deconvolution and Uncertainty Estimation
 
 **Compound:** PRL-8-53 (methyl 3-[2-[benzyl(methyl)amino]ethyl]benzoate; free base CAS 51352-88-6 / HCl salt CAS 51352-87-5)
-**Date of Access Checks:** 2026-09-22 (approx. 22:18–22:21 EDT / 2026-09-23 02:18–02:21 UTC)
+**Date of Access Checks:** 2026-09-22 (approx. 22:18 to 22:21 EDT / 2026-09-23 02:18 to 02:21 UTC)
 **Status:** Exploratory Methods Review & Uncertainty Assessment
 **Author:** Hasan Ugur (Rolf) Yildirim
 
@@ -23,7 +23,7 @@ This review evaluates:
 
 ## 2. Verified Tool and Resource Assessment
 
-Each tool below was directly probed on 2026-09-22 between 22:18 and 22:21 EDT (2026-09-23 02:18–02:21 UTC). Web reachability (HTTP 200 on an index page) is strictly distinguished from verified execution of prediction jobs.
+Each tool below was directly probed on 2026-09-22 between 22:18 and 22:21 EDT (2026-09-23 02:18 to 02:21 UTC). Web reachability (HTTP 200 on an index page) is strictly distinguished from verified execution of prediction jobs.
 
 ### 2.1 SwissTargetPrediction
 
@@ -122,7 +122,7 @@ To establish the baseline presence of PRL-8-53 in ChEMBL and PubChem, specific A
 ### 2.5 Structure-Based Docking Engine: AutoDock Vina
 
 *   **Software & License:** AutoDock Vina (v1.2.x), Apache License 2.0 (open source).
-*   **Local Tooling Status:** On the Mac research environment, `/opt/homebrew/bin/obabel` (Open Babel 3.2.1) is present. AutoDock Vina itself was not found in PATH and must be acquired or compiled if docking is later conducted.
+*   **Historical tooling note (2026-09-22):** Open Babel 3.2.1 was available as `obabel`; AutoDock Vina was not yet in PATH. The later experiments record the actual Vina runtime. Current offline run instructions are in `README.md`.
 *   **Scoring Function Overview:** Evaluates an empirical free-energy fitness function summing steric interactions (piecewise linear dispersion terms), directional hydrogen bonding, hydrophobic contact terms, and a conformational torsional penalty proportional to the number of active rotatable bonds.
 *   **Resource Management:** Multi-threaded using OpenMP. CPU usage must be capped explicitly (e.g., `--cpu 4` with a single active job) to conform to the project resource ceiling (4 cores, 16 GB RAM under `nice -n 19`).
 *   **Key Literature:**
