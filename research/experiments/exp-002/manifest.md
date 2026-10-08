@@ -1,6 +1,6 @@
 # exp-002 manifest
 
-> **Public release note.** Some files in this repository were edited before publication: local absolute paths were made repo-relative, a machine hostname was removed, and material that is not redistributed here was taken out. Every SHA-256 recorded in this folder, including `SHA256SUMS`, was recomputed against the published files, so the hashes verify what is here rather than the internal working copy. No result, pose, score, table or log value was changed.
+> **Public release note.** Some files in this repository were edited before publication: local absolute paths were made repo-relative, a machine hostname was removed, and material that is not redistributed here was taken out. Every SHA-256 recorded in this folder, including `SHA256SUMS`, was recomputed against the published files, so the hashes verify what is here rather than the internal working copy. No scientific result, pose, score, or table value was changed. Empty captures and package-installation chatter were removed. Versions and binary provenance remain in `environment.txt` and `scripts/install_vina.sh`. Analysis and validation scripts still write to this experiment's retained output directories.
 
 
 ## Scope

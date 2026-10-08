@@ -1,5 +1,49 @@
+# Environments and local tools, including nested experiment runtimes
 .venv/
+venv/
 .local-tools/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Build and generated run output
+build/
+dist/
+*.egg-info/
+htmlcov/
+.coverage*
+outputs/
+runs/
+
+# New data downloads and bulk datasets. Retained evidence is intentional.
+data/
+datasets/
+downloads/
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+*.map
+*.mrc
+*.mrc.gz
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+
+# Editor and OS files
 .DS_Store
+.idea/
+.vscode/
+*.swp
