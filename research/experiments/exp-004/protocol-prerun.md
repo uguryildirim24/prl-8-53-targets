@@ -55,7 +55,7 @@ Any score/contact comparison to exp-003 paroxetine is descriptive only and canno
 
 ## Host, software and controls
 
-Authorized host is this local arm64 Mac only. Preflight observed Darwin 27.0.0, 18 logical CPUs, 25,769,803,776 physical bytes and unlimited shell virtual-memory limits. No hard 4 GB shell enforcement is claimed. Do not use OCI, containers, helpers, global installs, network access or any flyonenomics path/process.
+Authorized host is this local arm64 Mac only. Preflight observed Darwin 27.0.0, 18 logical CPUs, 25,769,803,776 physical bytes and unlimited shell virtual-memory limits. No hard 4 GB shell enforcement is claimed. Do not use OCI, containers, helpers, global installs, network access or paths/processes from unrelated projects.
 
 Reuse the existing project-local exact-version runtime at `<repo>/research/experiments/exp-002/` after verifying it exists: Python 3.13.15, RDKit 2026.03.6, gemmi 0.7.5, Meeko 0.8.0, NumPy 2.5.3, SciPy 1.18.1 and Vina arm64 1.2.7 SHA-256 `823c2bbacf26d72183861322345f0a89736aca66c8e81054c66f93af5ad623f1`. This worktree path may disappear; reproduction then requires an externally rebuilt equivalent environment because the binary/environment are not vendored.
 
